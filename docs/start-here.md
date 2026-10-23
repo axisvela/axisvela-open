@@ -1,6 +1,6 @@
 # Start here
 
-There are four useful ways into AxisVela. Pick the one that matches your job;
+There are five useful ways into AxisVela. Pick the one that matches your job;
 you do not need to read the whole map first.
 
 ## Build
@@ -38,6 +38,8 @@ When you need more than the loop, add one seam at a time:
 | Authorization and approvals | [AEGIVELA](projects/aegivela.md) | Delegated authority, policy enforcement |
 | Durable, recoverable processes | [RHEOVELA](projects/rheovela.md) | Event-sourced workflow runtime |
 
+For the full walkthrough, see [Build an agent](practice/build-an-agent.md).
+
 ## Evaluate
 
 **You want to understand whether the ecosystem solves a real problem for your
@@ -58,7 +60,27 @@ Read in this order:
    [`enterprise-autonomy/examples/`](https://github.com/axisvela/enterprise-autonomy/tree/main/examples).
 
 The question to keep asking is not “which product is best?” but “which seam do I
-need, and what evidence does it leave behind?”
+need, and what evidence does it leave behind?” For the architectural view, read
+[Agent architecture](architecture/index.md).
+
+## Design
+
+**You are designing a governed agent system.**
+
+Read the architecture section in this order:
+
+1. [Reference architecture](architecture/reference-architecture.md) — the layers
+   and the end-to-end request path.
+2. [Control planes](architecture/control-planes.md) — identity, policy,
+   capability, coordination, and assurance.
+3. [Contracts and interfaces](architecture/contracts.md) — how independent
+   products compose.
+4. [Evidence architecture](architecture/evidence.md) — how to make the design
+   provable.
+5. [Security model](architecture/security.md) — the threat model.
+
+If you need the conceptual grounding first, read
+[Agent theory](theory/index.md).
 
 ## Operate
 
@@ -78,22 +100,32 @@ Start with the
 [governance patterns](https://github.com/axisvela/enterprise-autonomy/blob/main/docs/governance-patterns.md)
 and the
 [reference stacks](https://github.com/axisvela/enterprise-autonomy/tree/main/reference-stacks)
-in Enterprise Autonomy.
+in Enterprise Autonomy. For the runnable version, see
+[Durable process](practice/durable-process.md) and
+[End to end](practice/end-to-end.md).
 
 ## Learn
 
 **You want the ideas first, without product detail.**
 
-Read the [concepts](concepts/index.md), especially:
+Read [Agent theory](theory/index.md) first, especially:
+
+- [Unified Agent Dynamics](theory/uad.md)
+- [DIKCA](theory/dikca.md)
+- [Intent, AOP, and control](theory/intent-aop.md)
+- [PPES](theory/ppes.md)
+
+Then use the [concepts](concepts/index.md) for the vocabulary:
 
 - [Governed autonomy](concepts/governed-autonomy.md)
+- [Agency and control](concepts/agency-and-control.md)
 - [Contracts, not a kernel](concepts/contracts-not-kernel.md)
 - [Evidence and auditability](concepts/evidence-and-audit.md)
 - [Agent identity in three planes](concepts/agent-identity.md)
 - [Coordination vs orchestration](concepts/coordination-vs-orchestration.md)
 
-The [glossary](concepts/glossary.md) collects the vocabulary used across the
-projects.
+The [terminology and glossary](concepts/glossary.md) collects the full
+vocabulary used across the projects.
 
 ## One warning about “open”
 

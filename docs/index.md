@@ -1,17 +1,28 @@
 # AxisVela Open documentation
 
-This site is the public map of the AxisVela project family. It is written for
-people who are evaluating the ecosystem, building against one of its open
-surfaces, or trying to understand the ideas behind it.
+This site is the public map of the AxisVela project family, plus the theory,
+architecture, practice, and vocabulary needed to reason about agent systems.
+
+## The six sections
+
+| Section | What it is for |
+| --- | --- |
+| [Products & projects](projects/index.md) | What each project is, the problem it solves, and how it fits |
+| [Agent theory](theory/index.md) | The conceptual spine: UAD, DIKCA, intent, PPES, taxonomy, multi-agent dynamics |
+| [Agent architecture](architecture/index.md) | Runtime, control planes, contracts, knowledge, evidence, deployment, security |
+| [Agent practice](practice/index.md) | Step-by-step guides using AxisVela as the reference implementation |
+| [Concepts & terminology](concepts/index.md) | The vocabulary: agency, context, capability, identity, reliability, maturity |
+| [Reference](reference/index.md) | Relationships, licenses, sources, standards, FAQ |
 
 ## Choose a path
 
 | Path | Who it is for | Start |
 | --- | --- | --- |
-| **Build** | Developers who want to embed a governed agent loop or SDK | [Start here → Build](start-here.md#build) |
+| **Build** | Developers who want to embed a governed agent loop or SDK | [Build an agent](practice/build-an-agent.md) |
 | **Evaluate** | Architects and technical leads comparing the ecosystem | [Start here → Evaluate](start-here.md#evaluate) |
 | **Operate** | Teams running workflows, approvals, and agent operations | [Start here → Operate](start-here.md#operate) |
-| **Learn** | Readers who want the concepts before the products | [Concepts](concepts/index.md) |
+| **Learn** | Readers who want the theory and vocabulary first | [Agent theory](theory/index.md) |
+| **Design** | Architects designing a governed agent system | [Agent architecture](architecture/index.md) |
 
 ## Two indexes
 
@@ -22,20 +33,9 @@ surfaces, or trying to understand the ideas behind it.
   — the same map in a format that catalogs, documentation tools, and AI agents
   can consume.
 
-## What is in this repository
-
-- [Start here](start-here.md) — four ways into the ecosystem.
-- [Ecosystem map](ecosystem-map.md) — the layers, the relationships, and the
-  boundaries.
-- [Projects](projects/index.md) — per-project goals, problems, and value.
-- [Concepts](concepts/index.md) — governed autonomy, contracts, evidence,
-  identity, coordination, world models, and capability planning.
-- [Relationships](reference/relationships.md) — the edge list behind the map.
-- [Licenses](reference/licenses.md) — what is open, what is an open surface, and
-  where to check.
-
 ## A note on independence
 
 The projects are independently versioned. This repository does not contain their
 source code and does not override their documentation. If a product page and a
-product repository disagree, the product repository wins.
+product repository disagree, the product repository wins. If a theory page and a
+cited paper disagree, the paper wins.

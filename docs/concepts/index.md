@@ -1,19 +1,61 @@
-# Concepts
+# Concepts and terminology
 
-The projects in AxisVela are easier to understand if you separate the ideas from
-the implementations. These pages are short, vendor-neutral introductions to the
-ideas the ecosystem is built around.
+Concepts explain the ideas; terminology gives them names. The product pages
+explain what each project does. These pages explain the vocabulary you need to
+reason about the system.
 
-| Concept | One-line summary |
+## Foundations
+
+| Page | What it answers |
 | --- | --- |
-| [Governed autonomy](governed-autonomy.md) | Autonomy needs policy, evidence, and a human decision path. |
-| [Contracts, not a kernel](contracts-not-kernel.md) | Independent products compose through versioned contracts. |
-| [Open surfaces](open-surfaces.md) | What “open” means when a runtime has commercial editions. |
-| [Evidence and auditability](evidence-and-audit.md) | Claims about behavior must be backed by artifacts. |
-| [Agent identity in three planes](agent-identity.md) | Issuance, registry, and authorization are different problems. |
-| [Coordination vs orchestration](coordination-vs-orchestration.md) | MCP calls tools; Harmovela coordinates work over time. |
-| [World models and digital twins](world-models.md) | Operational truth is temporal and evidence-bearing. |
-| [Capability planning](capability-planning.md) | Plan, govern, execute, approve, verify. |
-| [Glossary](glossary.md) | The vocabulary used across the projects. |
+| [Agency and control](agency-and-control.md) | What is agency, autonomy, control, and meta-control? |
+| [Governed autonomy](governed-autonomy.md) | What makes autonomy governable? |
+| [Intent and specification](intent-and-specification.md) | How do goal, context, constraints, and acceptance differ? |
+
+## Systems and architecture
+
+| Page | What it answers |
+| --- | --- |
+| [Contracts, not a kernel](contracts-not-kernel.md) | Why independent products compose through contracts |
+| [Open surfaces](open-surfaces.md) | What “open” means when a runtime has commercial editions |
+| [Coordination vs orchestration](coordination-vs-orchestration.md) | MCP vs coordination protocol vs durable workflow |
+
+## Work and capabilities
+
+| Page | What it answers |
+| --- | --- |
+| [Capability planning](capability-planning.md) | How goals become plans, capabilities, execution, and verification |
+| [Capability, skill, and tool](capability-skill-tool.md) | The difference between a tool, a capability, a skill, and an agent |
+| [Agent taxonomy](agent-taxonomy.md) | Application, service, employee, physical twin, human twin |
+
+## Knowledge and context
+
+| Page | What it answers |
+| --- | --- |
+| [Memory and context](memory-context.md) | Context, memory, grounding, and world state |
+| [World models](world-models.md) | Operational world models, digital twins, and possible worlds |
+
+## Trust and security
+
+| Page | What it answers |
+| --- | --- |
+| [Agent identity](agent-identity.md) | Issuance, registry, and authorization |
+| [Security](security.md) | The threat model and the controls |
+| [Evidence and auditability](evidence-and-audit.md) | What counts as evidence |
+| [Observability](observability.md) | Metrics, logs, traces vs evidence |
+
+## Operations and maturity
+
+| Page | What it answers |
+| --- | --- |
+| [Reliability](reliability.md) | Failure domains, durability, idempotency, recovery |
+| [Governance maturity](maturity.md) | A practical ladder from ad hoc to adaptive |
+| [Anti-patterns](anti-patterns.md) | The recurring mistakes |
+
+## Reference
+
+- [Terminology and glossary](glossary.md) — the full vocabulary.
+- [Relationships](../reference/relationships.md) — the project edge list.
+- [Reading list](../reference/reading-list.md) — sources and further reading.
 
 These pages are explanatory. They do not override a product’s own documentation.

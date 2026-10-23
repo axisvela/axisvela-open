@@ -4,6 +4,11 @@ Every project in the public map, with the problem it addresses and the value it
 provides. Each row links to a page with more detail and the authoritative
 repository.
 
+Some entries are products, some are programs (for example, Enterprise Autonomy),
+and some are adjacent or related projects. The `kind` field in
+[`projects.yaml`](https://github.com/axisvela/axisvela-open/blob/main/projects.yaml)
+records the distinction.
+
 ## At a glance
 
 | Project | Layer | Problem it addresses | What you get | License |

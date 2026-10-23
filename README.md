@@ -11,9 +11,10 @@ product is independently versioned and can be used on its own.
 This repository is the map, not a monorepo. It explains what each project is
 for, the problem it solves, the value it provides, and how the pieces relate.
 
-[Start here](docs/start-here.md) · [Project index](docs/projects/index.md) ·
-[Ecosystem map](docs/ecosystem-map.md) · [Concepts](docs/concepts/index.md) ·
-[Machine-readable index](projects.yaml)
+[Start here](docs/start-here.md) · [Products](docs/projects/index.md) ·
+[Theory](docs/theory/index.md) · [Architecture](docs/architecture/index.md) ·
+[Practice](docs/practice/index.md) · [Concepts](docs/concepts/index.md) ·
+[Reference](docs/reference/index.md) · [Machine-readable index](projects.yaml)
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/axisvela/praxo-core/v2.svg)](https://pkg.go.dev/github.com/axisvela/praxo-core/v2)
 
@@ -74,14 +75,30 @@ The practical consequence: you can evaluate the interfaces and build against
 them without buying anything, but an open surface is not a promise that the
 entire runtime is open source.
 
+## Suggested reading order
+
+| If you are… | Read |
+| --- | --- |
+| New to the ecosystem | [Start here](docs/start-here.md) → [Ecosystem map](docs/ecosystem-map.md) → [Products](docs/projects/index.md) |
+| An architect | [Agent theory](docs/theory/index.md) → [Agent architecture](docs/architecture/index.md) → [Enterprise Autonomy](docs/projects/enterprise-autonomy.md) |
+| A builder | [Build an agent](docs/practice/build-an-agent.md) → [Govern an agent](docs/practice/govern-an-agent.md) → [Durable process](docs/practice/durable-process.md) |
+| A researcher | [Agent theory](docs/theory/index.md) → [Research map](docs/theory/research-map.md) → [Reading list](docs/reference/reading-list.md) |
+
 ## How this repository is organized
 
 - [`docs/projects/`](docs/projects/index.md) — one page per project: problem,
   what it provides, why it matters, and how it fits.
-- [`docs/concepts/`](docs/concepts/index.md) — vendor-neutral introductions to
-  the ideas behind the ecosystem.
-- [`docs/reference/relationships.md`](docs/reference/relationships.md) — the
-  relationship index: who feeds whom, and where the seams are.
+- [`docs/theory/`](docs/theory/index.md) — the conceptual spine: UAD, DIKCA,
+  intent/AOP, PPES, taxonomy, multi-agent dynamics, economics. It synthesizes
+  Huiwen Han’s research program and links each page to the original source.
+- [`docs/architecture/`](docs/architecture/index.md) — runtime, control planes,
+  contracts, knowledge, evidence, deployment, and security.
+- [`docs/practice/`](docs/practice/index.md) — step-by-step guides using AxisVela
+  as the reference implementation.
+- [`docs/concepts/`](docs/concepts/index.md) — the vocabulary and the deeper
+  conceptual notes, including a comprehensive terminology section.
+- [`docs/reference/`](docs/reference/index.md) — relationships, licenses, sources,
+  standards, and FAQ.
 - [`projects.yaml`](projects.yaml) — a machine-readable project index for
   tooling, catalogs, and AI agents.
 - [`llms.txt`](llms.txt) — a compact index for AI-assisted discovery.

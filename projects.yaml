@@ -22,8 +22,34 @@ entry_points:
     description: Start with human oversight, durable process, and capability governance.
   - id: learn
     title: Learn
+    url: https://github.com/axisvela/axisvela-open/blob/main/docs/theory/index.md
+    description: Start with the theory and concepts rather than the products.
+
+docs_sections:
+  - id: products
+    title: Products and projects
+    url: https://github.com/axisvela/axisvela-open/blob/main/docs/projects/index.md
+    description: Goals, problems, value, licenses, and relationships for each project.
+  - id: theory
+    title: Agent theory
+    url: https://github.com/axisvela/axisvela-open/blob/main/docs/theory/index.md
+    description: UAD, DIKCA, intent/AOP, PPES, taxonomy, multi-agent dynamics, economics.
+  - id: architecture
+    title: Agent architecture
+    url: https://github.com/axisvela/axisvela-open/blob/main/docs/architecture/index.md
+    description: Runtime, control planes, contracts, knowledge, evidence, deployment, security.
+  - id: practice
+    title: Agent practice
+    url: https://github.com/axisvela/axisvela-open/blob/main/docs/practice/index.md
+    description: Step-by-step guides using AxisVela as the reference implementation.
+  - id: concepts
+    title: Concepts and terminology
     url: https://github.com/axisvela/axisvela-open/blob/main/docs/concepts/index.md
-    description: Start with the concepts rather than the products.
+    description: The vocabulary and conceptual notes for agent systems.
+  - id: reference
+    title: Reference
+    url: https://github.com/axisvela/axisvela-open/blob/main/docs/reference/index.md
+    description: Relationships, licenses, reading list, standards, and FAQ.
 
 projects:
   - id: praxo-core

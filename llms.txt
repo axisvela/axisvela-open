@@ -10,10 +10,15 @@ https://github.com/axisvela/axisvela-open.
 ## Start
 
 - [Start here](https://github.com/axisvela/axisvela-open/blob/main/docs/start-here.md)
-- [Project index](https://github.com/axisvela/axisvela-open/blob/main/docs/projects/index.md)
-- [Ecosystem map](https://github.com/axisvela/axisvela-open/blob/main/docs/ecosystem-map.md)
-- [Concepts](https://github.com/axisvela/axisvela-open/blob/main/docs/concepts/index.md)
+- [Products and projects](https://github.com/axisvela/axisvela-open/blob/main/docs/projects/index.md)
+- [Agent theory](https://github.com/axisvela/axisvela-open/blob/main/docs/theory/index.md)
+- [Agent architecture](https://github.com/axisvela/axisvela-open/blob/main/docs/architecture/index.md)
+- [Agent practice](https://github.com/axisvela/axisvela-open/blob/main/docs/practice/index.md)
+- [Concepts and terminology](https://github.com/axisvela/axisvela-open/blob/main/docs/concepts/index.md)
+- [Terminology and glossary](https://github.com/axisvela/axisvela-open/blob/main/docs/concepts/glossary.md)
+- [Reference](https://github.com/axisvela/axisvela-open/blob/main/docs/reference/index.md)
 - [Relationships](https://github.com/axisvela/axisvela-open/blob/main/docs/reference/relationships.md)
+- [Research map](https://github.com/axisvela/axisvela-open/blob/main/docs/theory/research-map.md)
 - [Machine-readable index](https://github.com/axisvela/axisvela-open/blob/main/projects.yaml)
 
 ## Foundation

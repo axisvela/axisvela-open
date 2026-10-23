@@ -35,8 +35,7 @@ theme:
 nav:
   - Home: index.md
   - Start here: start-here.md
-  - Ecosystem map: ecosystem-map.md
-  - Projects:
+  - Products & projects:
       - Index: projects/index.md
       - Foundation:
           - PRAXO-CORE: projects/praxo-core.md
@@ -71,20 +70,67 @@ nav:
           - KINETOVELA: projects/kinetovela.md
       - Program:
           - Enterprise Autonomy: projects/enterprise-autonomy.md
-  - Concepts:
-      - Index: concepts/index.md
+  - Agent theory:
+      - Overview: theory/index.md
+      - Unified Agent Dynamics: theory/uad.md
+      - DIKCA: theory/dikca.md
+      - Intent, AOP, and control: theory/intent-aop.md
+      - PPES: theory/ppes.md
+      - Agent taxonomy: theory/agent-taxonomy.md
+      - Multi-agent dynamics: theory/multi-agent-dynamics.md
+      - Autonomy and architecture: theory/autonomy-architecture.md
+      - Agent economics: theory/economics.md
+      - Research map: theory/research-map.md
+  - Agent architecture:
+      - Overview: architecture/index.md
+      - Reference architecture: architecture/reference-architecture.md
+      - Runtime: architecture/runtime.md
+      - Control planes: architecture/control-planes.md
+      - Contracts: architecture/contracts.md
+      - Knowledge: architecture/knowledge.md
+      - Evidence: architecture/evidence.md
+      - Deployment: architecture/deployment.md
+      - Security: architecture/security.md
+      - Ecosystem map: ecosystem-map.md
+  - Agent practice:
+      - Overview: practice/index.md
+      - Build an agent: practice/build-an-agent.md
+      - Govern an agent: practice/govern-an-agent.md
+      - Memory and context: practice/memory-and-context.md
+      - Durable process: practice/durable-process.md
+      - Connect external systems: practice/connect-external-systems.md
+      - Verify and simulate: practice/verify-and-simulate.md
+      - End to end: practice/end-to-end.md
+      - Adoption path: practice/adoption.md
+      - Anti-patterns and checklists: practice/anti-patterns.md
+  - Concepts & terminology:
+      - Overview: concepts/index.md
+      - Agency and control: concepts/agency-and-control.md
       - Governed autonomy: concepts/governed-autonomy.md
+      - Intent and specification: concepts/intent-and-specification.md
       - Contracts, not a kernel: concepts/contracts-not-kernel.md
       - Open surfaces: concepts/open-surfaces.md
-      - Evidence and auditability: concepts/evidence-and-audit.md
-      - Agent identity: concepts/agent-identity.md
       - Coordination vs orchestration: concepts/coordination-vs-orchestration.md
-      - World models: concepts/world-models.md
       - Capability planning: concepts/capability-planning.md
-      - Glossary: concepts/glossary.md
+      - Capability, skill, tool: concepts/capability-skill-tool.md
+      - Agent taxonomy: concepts/agent-taxonomy.md
+      - Memory and context: concepts/memory-context.md
+      - World models: concepts/world-models.md
+      - Agent identity: concepts/agent-identity.md
+      - Security: concepts/security.md
+      - Evidence and auditability: concepts/evidence-and-audit.md
+      - Observability: concepts/observability.md
+      - Reliability: concepts/reliability.md
+      - Governance maturity: concepts/maturity.md
+      - Anti-patterns: concepts/anti-patterns.md
+      - Terminology and glossary: concepts/glossary.md
   - Reference:
+      - Overview: reference/index.md
       - Relationships: reference/relationships.md
       - Licenses: reference/licenses.md
+      - Reading list: reference/reading-list.md
+      - Standards and protocols: reference/standards.md
+      - FAQ: reference/faq.md
 
 markdown_extensions:
   - admonition
