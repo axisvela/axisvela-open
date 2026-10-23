@@ -4,6 +4,8 @@
 
 [English](README.md) | 中文
 
+**文档版本：** [v0.1.0](https://github.com/axisvela/axisvela-open/releases/tag/v0.1.0)
+
 AxisVela 是一个独立维护的开源项目家族，面向构建和运行 Agent、工作流、机器人、
 数字孪生以及连接它们的系统。各个项目共享同一种设计立场——以契约代替共享内核，
 以证据代替断言，以人类控制代替盲目自动化——但每个产品都独立版本化，可以单独使用。

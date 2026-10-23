@@ -4,6 +4,8 @@
 
 [English](README.md) | [中文](README.zh-CN.md)
 
+**Documentation version:** [v0.1.0](https://github.com/axisvela/axisvela-open/releases/tag/v0.1.0)
+
 AxisVela is an independent, open-source project family for people building and
 operating agents, workflows, robots, digital twins, and the systems that connect
 them. The projects share a design stance — contracts over a shared kernel,
