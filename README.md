@@ -2,6 +2,8 @@
 
 **A public map of independent projects for governed autonomy.**
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 AxisVela is an independent, open-source project family for people building and
 operating agents, workflows, robots, digital twins, and the systems that connect
 them. The projects share a design stance — contracts over a shared kernel,

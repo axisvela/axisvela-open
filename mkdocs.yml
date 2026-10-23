@@ -131,6 +131,105 @@ nav:
       - Reading list: reference/reading-list.md
       - Standards and protocols: reference/standards.md
       - FAQ: reference/faq.md
+  - 中文 / Chinese:
+      - 首页: zh/index.md
+      - 从这里开始: zh/start-here.md
+      - 生态地图: zh/ecosystem-map.md
+      - 产品与项目:
+          - 索引: zh/projects/index.md
+          - 基础层:
+              - PRAXO-CORE: zh/projects/praxo-core.md
+              - Harmovela: zh/projects/harmovela.md
+              - Harmovela Open: zh/projects/harmovela-open.md
+              - COORDIVELA: zh/projects/coordivela.md
+          - 设计与标准:
+              - TAXOVELA: zh/projects/taxovela.md
+              - PAMP: zh/projects/pamp.md
+              - ea-harness: zh/projects/ea-harness.md
+          - 运行时与认知:
+              - PRAXOVELA: zh/projects/praxovela.md
+              - Mnemovela: zh/projects/mnemovela.md
+              - Noetivela: zh/projects/noetivela.md
+          - 工作与能力:
+              - ORCHADYN: zh/projects/orchadyn.md
+              - MODUREGIS: zh/projects/moduregis.md
+              - RHEOVELA: zh/projects/rheovela.md
+          - 信任与知识:
+              - EIDOVELA: zh/projects/eidovela.md
+              - NOMIVELA: zh/projects/nomivela.md
+              - AEGIVELA: zh/projects/aegivela.md
+              - GNOSIVELA: zh/projects/gnosivela.md
+              - ONTOVELA: zh/projects/ontovela.md
+          - 边界与保障:
+              - LIMENORA: zh/projects/limenora.md
+              - TEKMOVELA: zh/projects/tekmovela.md
+              - PEIRAVELA: zh/projects/peiravela.md
+              - SYNDOVELA: zh/projects/syndovela.md
+          - 人类与物理:
+              - SYMBIVELA: zh/projects/symbivela.md
+              - KINETOVELA: zh/projects/kinetovela.md
+          - 项目计划:
+              - Enterprise Autonomy: zh/projects/enterprise-autonomy.md
+      - Agent 理论:
+          - 总览: zh/theory/index.md
+          - Unified Agent Dynamics: zh/theory/uad.md
+          - DIKCA: zh/theory/dikca.md
+          - 意图、AOP 与控制: zh/theory/intent-aop.md
+          - PPES: zh/theory/ppes.md
+          - Agent 分类: zh/theory/agent-taxonomy.md
+          - 多智能体动力学: zh/theory/multi-agent-dynamics.md
+          - 自主性与架构: zh/theory/autonomy-architecture.md
+          - Agent 经济学: zh/theory/economics.md
+          - 研究地图: zh/theory/research-map.md
+      - Agent 架构:
+          - 总览: zh/architecture/index.md
+          - 参考架构: zh/architecture/reference-architecture.md
+          - 运行时: zh/architecture/runtime.md
+          - 控制平面: zh/architecture/control-planes.md
+          - 契约: zh/architecture/contracts.md
+          - 知识: zh/architecture/knowledge.md
+          - 证据: zh/architecture/evidence.md
+          - 部署: zh/architecture/deployment.md
+          - 安全: zh/architecture/security.md
+      - Agent 实操:
+          - 总览: zh/practice/index.md
+          - 构建 Agent: zh/practice/build-an-agent.md
+          - 治理 Agent: zh/practice/govern-an-agent.md
+          - 记忆与上下文: zh/practice/memory-and-context.md
+          - 持久化流程: zh/practice/durable-process.md
+          - 连接外部系统: zh/practice/connect-external-systems.md
+          - 验证与仿真: zh/practice/verify-and-simulate.md
+          - 端到端: zh/practice/end-to-end.md
+          - 采用路径: zh/practice/adoption.md
+          - 反模式与清单: zh/practice/anti-patterns.md
+      - 概念与术语:
+          - 总览: zh/concepts/index.md
+          - 能动性与控制: zh/concepts/agency-and-control.md
+          - 可治理自治: zh/concepts/governed-autonomy.md
+          - 意图与规格: zh/concepts/intent-and-specification.md
+          - 契约，而不是内核: zh/concepts/contracts-not-kernel.md
+          - 开放接口层: zh/concepts/open-surfaces.md
+          - 协调 vs 编排: zh/concepts/coordination-vs-orchestration.md
+          - 能力规划: zh/concepts/capability-planning.md
+          - 能力、技能与工具: zh/concepts/capability-skill-tool.md
+          - Agent 分类: zh/concepts/agent-taxonomy.md
+          - 记忆与上下文: zh/concepts/memory-context.md
+          - 世界模型: zh/concepts/world-models.md
+          - Agent 身份: zh/concepts/agent-identity.md
+          - 安全: zh/concepts/security.md
+          - 证据与可审计性: zh/concepts/evidence-and-audit.md
+          - 可观测性: zh/concepts/observability.md
+          - 可靠性: zh/concepts/reliability.md
+          - 治理成熟度: zh/concepts/maturity.md
+          - 反模式: zh/concepts/anti-patterns.md
+          - 术语表: zh/concepts/glossary.md
+      - 参考:
+          - 总览: zh/reference/index.md
+          - 关系: zh/reference/relationships.md
+          - 许可证: zh/reference/licenses.md
+          - 阅读清单: zh/reference/reading-list.md
+          - 标准与协议: zh/reference/standards.md
+          - FAQ: zh/reference/faq.md
 
 markdown_extensions:
   - admonition

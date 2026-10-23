@@ -21,6 +21,17 @@ https://github.com/axisvela/axisvela-open.
 - [Research map](https://github.com/axisvela/axisvela-open/blob/main/docs/theory/research-map.md)
 - [Machine-readable index](https://github.com/axisvela/axisvela-open/blob/main/projects.yaml)
 
+## 中文 / Chinese
+
+- [中文首页](https://github.com/axisvela/axisvela-open/blob/main/docs/zh/index.md)
+- [从这里开始](https://github.com/axisvela/axisvela-open/blob/main/docs/zh/start-here.md)
+- [产品与项目](https://github.com/axisvela/axisvela-open/blob/main/docs/zh/projects/index.md)
+- [Agent 理论](https://github.com/axisvela/axisvela-open/blob/main/docs/zh/theory/index.md)
+- [Agent 架构](https://github.com/axisvela/axisvela-open/blob/main/docs/zh/architecture/index.md)
+- [Agent 实操](https://github.com/axisvela/axisvela-open/blob/main/docs/zh/practice/index.md)
+- [术语表](https://github.com/axisvela/axisvela-open/blob/main/docs/zh/concepts/glossary.md)
+- [研究地图](https://github.com/axisvela/axisvela-open/blob/main/docs/zh/theory/research-map.md)
+
 ## Foundation
 
 - [PRAXO-CORE](https://github.com/axisvela/praxo-core): MIT Go agent framework; loop, primitives, adapters, policy, sandbox, plugins.

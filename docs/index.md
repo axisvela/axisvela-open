@@ -1,5 +1,7 @@
 # AxisVela Open documentation
 
+**English** | [中文](zh/index.md)
+
 This site is the public map of the AxisVela project family, plus the theory,
 architecture, practice, and vocabulary needed to reason about agent systems.
 
