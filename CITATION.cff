@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this documentation or project index, please cite it as below."
+title: "AxisVela Open: A Public Map of Independent Projects for Governed Autonomy"
+type: software
+version: 0.2.0
+date-released: "2026-10-23"
+license: Apache-2.0
+repository-code: "https://github.com/axisvela/axisvela-open"
+url: "https://axisvela.github.io/axisvela-open/"
+abstract: >-
+  A public map of independent projects for governed autonomy, covering agent
+  frameworks, coordination protocols, runtime and cognition, work and
+  capabilities, identity and knowledge, boundary and assurance, and human and
+  physical operations. Includes English and Chinese documentation, a
+  machine-readable project index, and an annotated research map.
+authors:
+  - family-names: Han
+    given-names: Huiwen
+    orcid: "https://orcid.org/0009-0000-5852-5916"
+keywords:
+  - governed autonomy
+  - AI agents
+  - agent architecture
+  - agent governance
+  - evidence
+  - contracts
+  - enterprise architecture

@@ -8,6 +8,9 @@ Lookup material for readers who need the map, the sources, or the standards.
 | [Licenses](licenses.md) | What is open, what is an open surface, and where to check |
 | [Reading list](reading-list.md) | The theoretical sources and further reading |
 | [Standards and protocols](standards.md) | The external standards the architecture uses |
+| [Versioning](versioning.md) | How documentation versions relate to product versions |
+| [Changelog](changelog.md) | Documentation release history |
+| [Roadmap](roadmap.md) | The documentation roadmap and known gaps |
 | [FAQ](faq.md) | Common questions about the ecosystem |
 | [Project index](../projects/index.md) | The human-readable product index |
 | [Terminology](../concepts/glossary.md) | The full vocabulary |

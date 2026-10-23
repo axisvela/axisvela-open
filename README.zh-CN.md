@@ -4,7 +4,7 @@
 
 [English](README.md) | 中文
 
-**文档版本：** [v0.1.0](https://github.com/axisvela/axisvela-open/releases/tag/v0.1.0)
+**文档版本：** [v0.2.0](https://github.com/axisvela/axisvela-open/releases/tag/v0.2.0)
 
 AxisVela 是一个独立维护的开源项目家族，面向构建和运行 Agent、工作流、机器人、
 数字孪生以及连接它们的系统。各个项目共享同一种设计立场——以契约代替共享内核，
@@ -103,3 +103,4 @@ AxisVela 是由独立维护者维护的项目家族，不是公司。公开仓�
 - [安全策略](SECURITY.md) — 私下报告漏洞。
 - [行为准则](CODE_OF_CONDUCT.md)。
 - 本仓库的文档与示例采用 Apache-2.0。产品仓库各自携带许可证。
+

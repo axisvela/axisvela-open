@@ -130,6 +130,9 @@ nav:
       - Licenses: reference/licenses.md
       - Reading list: reference/reading-list.md
       - Standards and protocols: reference/standards.md
+      - Versioning: reference/versioning.md
+      - Changelog: reference/changelog.md
+      - Roadmap: reference/roadmap.md
       - FAQ: reference/faq.md
   - 中文 / Chinese:
       - 首页: zh/index.md
@@ -229,7 +232,21 @@ nav:
           - 许可证: zh/reference/licenses.md
           - 阅读清单: zh/reference/reading-list.md
           - 标准与协议: zh/reference/standards.md
+          - 版本说明: zh/reference/versioning.md
+          - 变更记录: zh/reference/changelog.md
+          - 路线图: zh/reference/roadmap.md
           - FAQ: zh/reference/faq.md
+
+extra:
+  alternate:
+    - name: English
+      link: https://axisvela.github.io/axisvela-open/
+      lang: en
+    - name: 中文
+      link: https://axisvela.github.io/axisvela-open/zh/
+      lang: zh
+
+copyright: "© 2026 AxisVela · Documentation v0.2.0"
 
 markdown_extensions:
   - admonition

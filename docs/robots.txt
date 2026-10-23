@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# AxisVela Open documentation
+# https://axisvela.github.io/axisvela-open/

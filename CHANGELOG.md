@@ -4,6 +4,25 @@ This changelog versions the **AxisVela Open documentation and project index**.
 It does not version the individual projects. Each product repository carries its
 own releases.
 
+## v0.2.0 — 2026-10-23
+
+Publication and discovery release.
+
+### Added
+
+- Site-wide language selector for English and Chinese.
+- [Documentation versioning](docs/reference/versioning.md) page, including the
+  relationship between documentation tags and product versions.
+- [Changelog](docs/reference/changelog.md) and
+  [roadmap](docs/reference/roadmap.md) pages.
+- `CITATION.cff` for machine-readable citation.
+- `robots.txt` for crawlers.
+- Version groups in the English and Chinese reference sections.
+
+### Changed
+
+- README version links now point to `v0.2.0`.
+
 ## v0.1.0 — 2026-10-23
 
 First complete public snapshot.

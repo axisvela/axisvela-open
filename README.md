@@ -4,7 +4,7 @@
 
 [English](README.md) | [中文](README.zh-CN.md)
 
-**Documentation version:** [v0.1.0](https://github.com/axisvela/axisvela-open/releases/tag/v0.1.0)
+**Documentation version:** [v0.2.0](https://github.com/axisvela/axisvela-open/releases/tag/v0.2.0)
 
 AxisVela is an independent, open-source project family for people building and
 operating agents, workflows, robots, digital twins, and the systems that connect
@@ -125,3 +125,4 @@ developed separately.
 - [Code of Conduct](CODE_OF_CONDUCT.md).
 - Documentation and examples in this repository are licensed under Apache-2.0.
   Product repositories carry their own licenses.
+

@@ -10,6 +10,9 @@
 | [许可证](licenses.md) | 什么开源、什么是开放接口层、到哪里核对 |
 | [阅读清单](reading-list.md) | 理论来源与延伸阅读 |
 | [标准与协议](standards.md) | 架构使用的外部标准 |
+| [版本说明](versioning.md) | 文档版本与产品版本的关系 |
+| [变更记录](changelog.md) | 文档发布历史 |
+| [路线图](roadmap.md) | 文档路线图与已知缺口 |
 | [FAQ](faq.md) | 关于生态的常见问题 |
 | [产品索引](../projects/index.md) | 人类可读的产品索引 |
 | [术语表](../concepts/glossary.md) | 完整词汇 |
