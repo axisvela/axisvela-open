@@ -1,0 +1,103 @@
+site_name: AxisVela Open
+site_description: A public map of independent projects for governed autonomy.
+site_url: https://axisvela.github.io/axisvela-open/
+repo_url: https://github.com/axisvela/axisvela-open
+repo_name: axisvela/axisvela-open
+edit_uri: edit/main/docs/
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Start here: start-here.md
+  - Ecosystem map: ecosystem-map.md
+  - Projects:
+      - Index: projects/index.md
+      - Foundation:
+          - PRAXO-CORE: projects/praxo-core.md
+          - Harmovela: projects/harmovela.md
+          - Harmovela Open: projects/harmovela-open.md
+          - COORDIVELA: projects/coordivela.md
+      - Design and standards:
+          - TAXOVELA: projects/taxovela.md
+          - PAMP: projects/pamp.md
+          - ea-harness (related): projects/ea-harness.md
+      - Runtime and cognition:
+          - PRAXOVELA: projects/praxovela.md
+          - Mnemovela: projects/mnemovela.md
+          - Noetivela: projects/noetivela.md
+      - Work and capabilities:
+          - ORCHADYN: projects/orchadyn.md
+          - MODUREGIS: projects/moduregis.md
+          - RHEOVELA: projects/rheovela.md
+      - Trust and knowledge:
+          - EIDOVELA: projects/eidovela.md
+          - NOMIVELA: projects/nomivela.md
+          - AEGIVELA: projects/aegivela.md
+          - GNOSIVELA: projects/gnosivela.md
+          - ONTOVELA: projects/ontovela.md
+      - Boundary and assurance:
+          - LIMENORA: projects/limenora.md
+          - TEKMOVELA: projects/tekmovela.md
+          - PEIRAVELA: projects/peiravela.md
+          - SYNDOVELA: projects/syndovela.md
+      - Human and physical:
+          - SYMBIVELA: projects/symbivela.md
+          - KINETOVELA: projects/kinetovela.md
+      - Program:
+          - Enterprise Autonomy: projects/enterprise-autonomy.md
+  - Concepts:
+      - Index: concepts/index.md
+      - Governed autonomy: concepts/governed-autonomy.md
+      - Contracts, not a kernel: concepts/contracts-not-kernel.md
+      - Open surfaces: concepts/open-surfaces.md
+      - Evidence and auditability: concepts/evidence-and-audit.md
+      - Agent identity: concepts/agent-identity.md
+      - Coordination vs orchestration: concepts/coordination-vs-orchestration.md
+      - World models: concepts/world-models.md
+      - Capability planning: concepts/capability-planning.md
+      - Glossary: concepts/glossary.md
+  - Reference:
+      - Relationships: reference/relationships.md
+      - Licenses: reference/licenses.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search

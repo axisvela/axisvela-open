@@ -1,0 +1,67 @@
+# AxisVela Open
+
+> A public map of independent, open-source and open-surface projects for
+> governed autonomy: agents, workflows, robots, digital twins, and the systems
+> that connect them.
+
+This file is a compact index for AI-assisted discovery. The human entry point is
+https://github.com/axisvela/axisvela-open.
+
+## Start
+
+- [Start here](https://github.com/axisvela/axisvela-open/blob/main/docs/start-here.md)
+- [Project index](https://github.com/axisvela/axisvela-open/blob/main/docs/projects/index.md)
+- [Ecosystem map](https://github.com/axisvela/axisvela-open/blob/main/docs/ecosystem-map.md)
+- [Concepts](https://github.com/axisvela/axisvela-open/blob/main/docs/concepts/index.md)
+- [Relationships](https://github.com/axisvela/axisvela-open/blob/main/docs/reference/relationships.md)
+- [Machine-readable index](https://github.com/axisvela/axisvela-open/blob/main/projects.yaml)
+
+## Foundation
+
+- [PRAXO-CORE](https://github.com/axisvela/praxo-core): MIT Go agent framework; loop, primitives, adapters, policy, sandbox, plugins.
+- [Harmovela](https://github.com/axisvela/harmovela): open coordination protocol for events, tasks, state, delegation, recovery, governance.
+- [COORDIVELA](https://github.com/axisvela/coordivela-open): development coordination control plane for humans and agents.
+
+## Runtime and cognition
+
+- [PRAXOVELA](https://github.com/axisvela/praxovela-open): deny-by-default local agent runtime with effect ledger and replayable traces.
+- [Mnemovela](https://github.com/axisvela/mnemovela-open): typed, branchable agent memory with hybrid retrieval and governed forgetting.
+- [Noetivela](https://github.com/axisvela/noetivela-open): inference fabric with model catalog, inference contracts, and governed routing.
+
+## Work and capabilities
+
+- [ORCHADYN](https://github.com/axisvela/orchadyn-open): planning compiler for verified, revisable plans.
+- [MODUREGIS](https://github.com/axisvela/moduregis-open): capability control plane for publishing, discovery, authorization, invocation, audit.
+- [RHEOVELA](https://github.com/axisvela/rheovela-open): durable, event-sourced workflow platform for governed capability plans.
+
+## Trust and knowledge
+
+- [EIDOVELA](https://github.com/axisvela/eidovela-open): agent identity provider with workload attestation and PoP tokens.
+- [NOMIVELA](https://github.com/axisvela/NOMIVELA-open): agent registry and namespace authority.
+- [AEGIVELA](https://github.com/axisvela/aegivela-open): authorization, delegation, approvals, revocation, and security evidence.
+- [GNOSIVELA](https://github.com/axisvela/gnosivela-open): semantic and knowledge fabric with scoped grounding views.
+- [ONTOVELA](https://github.com/axisvela/ontovela-open): evidence-bearing bitemporal world model and digital twin.
+
+## Boundary and assurance
+
+- [LIMENORA](https://github.com/axisvela/limenora-open): governed integration gateway for APIs, MCP, events, and webhooks.
+- [TEKMOVELA](https://github.com/axisvela/tekmovela-open): verification contracts, reproducible tests, and release gates.
+- [PEIRAVELA](https://github.com/axisvela/peiravela-open): possible-world simulation and experiment control plane.
+- [SYNDOVELA](https://github.com/axisvela/SYNDOVELA-open): agent-skill composition and supply-chain governance.
+
+## Human and physical
+
+- [SYMBIVELA](https://github.com/axisvela/symbivela-open): human-agent collaboration workspace for approvals, exceptions, and intervention.
+- [KINETOVELA](https://github.com/axisvela/kinetovela-open): physical-autonomy control plane for robot fleets.
+
+## Design and program
+
+- [TAXOVELA](https://github.com/axisvela/TAXOVELA): AI-native architecture design and validation skills + CLI.
+- [Enterprise Autonomy](https://github.com/axisvela/enterprise-autonomy): public introduction, reference stacks, and runnable examples.
+- [PAMP](https://github.com/axisvela/AXISRobo-PAMP): enterprise architecture management platform.
+
+## Notes
+
+- An `*-open` repository is often an open integration surface, not the entire runtime.
+- Licenses vary. The `LICENSE` in each repository is authoritative.
+- AxisVela is an independent project family, not a company.

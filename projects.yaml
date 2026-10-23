@@ -1,0 +1,801 @@
+schema_version: 1
+organization: axisvela
+updated: "2026-10-23"
+docs_license: Apache-2.0
+description: >-
+  Machine-readable index of the AxisVela public project family. The repository
+  named in each entry is authoritative for implementation, availability, and
+  license.
+
+entry_points:
+  - id: build
+    title: Build
+    url: https://github.com/axisvela/praxo-core
+    description: Start with the MIT-licensed agent framework.
+  - id: evaluate
+    title: Evaluate
+    url: https://github.com/axisvela/enterprise-autonomy
+    description: Start with the public introduction and runnable examples.
+  - id: operate
+    title: Operate
+    url: https://github.com/axisvela/symbivela-open
+    description: Start with human oversight, durable process, and capability governance.
+  - id: learn
+    title: Learn
+    url: https://github.com/axisvela/axisvela-open/blob/main/docs/concepts/index.md
+    description: Start with the concepts rather than the products.
+
+projects:
+  - id: praxo-core
+    name: PRAXO-CORE
+    kind: framework
+    layer: foundation
+    repo: https://github.com/axisvela/praxo-core
+    license: MIT
+    language: Go
+    status: active
+    open_surface: false
+    problem: >-
+      Teams rebuild the agent loop, provider abstraction, tool contracts, and
+      governance for every agent product.
+    value: >-
+      An embeddable, provider-neutral, MIT-licensed foundation for governed
+      agents.
+    provides:
+      - governed agent loop
+      - model, tool, memory, event, scheduler, policy, sandbox, checkpoint primitives
+      - runtime plugin plane with process and WASM hosts
+      - OpenAI-compatible and MCP adapters
+      - OpenTelemetry and benchmarks
+    relates_to:
+      - praxovela
+      - noetivela
+      - mnemovela
+      - harmovela
+      - gnosivela
+      - aegivela
+      - limenora
+      - rheovela
+    tags:
+      - agent-framework
+      - go
+      - mit
+      - governing
+
+  - id: taxovela
+    name: TAXOVELA
+    kind: design-tool
+    layer: design
+    repo: https://github.com/axisvela/TAXOVELA
+    license: MIT
+    language: Python
+    status: active
+    open_surface: false
+    problem: >-
+      Architecture artifacts are inconsistent, unverifiable, and disconnected
+      from AI-assisted design workflows.
+    value: >-
+      An AI-native architecture practice with deterministic validation and a
+      reproducible gate.
+    provides:
+      - requirements, design, diagram, validation, security, review, optimize, and report skills
+      - multi-project CLI workspace
+      - draw.io and D2 renderers
+      - hash-verified artifacts and workflow gate
+    relates_to:
+      - pamp
+      - enterprise-autonomy
+    tags:
+      - architecture
+      - ai-native
+      - validation
+      - mit
+
+  - id: harmovela
+    name: Harmovela
+    kind: protocol
+    layer: foundation
+    repo: https://github.com/axisvela/harmovela
+    license: Apache-2.0
+    language: TypeScript, Python, Go, Java
+    status: active
+    open_surface: false
+    problem: >-
+      MCP covers synchronous capability calls but not long-running multi-agent
+      coordination.
+    value: >-
+      A vendor-neutral protocol for events, tasks, state, delegation, recovery,
+      and governance.
+    provides:
+      - seven coordination dimensions
+      - versioned specifications and JSON Schemas
+      - conformance fixtures
+      - four language implementations
+      - seven transport bindings
+    relates_to:
+      - praxo-core
+      - coordivela
+      - rheovela
+    tags:
+      - protocol
+      - coordination
+      - mcp-companion
+      - apache-2-0
+
+  - id: harmovela-open
+    name: Harmovela Open
+    kind: examples
+    layer: foundation
+    repo: https://github.com/axisvela/harmovela-open
+    license: Apache-2.0
+    language: JavaScript
+    status: active
+    open_surface: true
+    parent: harmovela
+    problem: >-
+      Integrators need runnable examples and a registry of ecosystem projects
+      built around the protocol.
+    value: >-
+      Examples, an ecosystem registry, and authoring guidance for Harmovela.
+    relates_to:
+      - harmovela
+    tags:
+      - examples
+      - ecosystem
+      - apache-2-0
+
+  - id: coordivela
+    name: COORDIVELA
+    kind: control-plane
+    layer: foundation
+    repo: https://github.com/axisvela/coordivela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Humans and agents working in parallel duplicate effort, collide on work,
+      and lose track of dependencies.
+    value: >-
+      A coordination control plane for work state, leases, dependencies,
+      schedules, conflicts, and interventions.
+    provides:
+      - work state and leases
+      - dependencies and schedules
+      - conflict detection
+      - structured interventions
+    relates_to:
+      - harmovela
+      - rheovela
+    tags:
+      - coordination
+      - control-plane
+      - apache-2-0
+
+  - id: praxovela
+    name: PRAXOVELA
+    kind: runtime
+    layer: runtime
+    repo: https://github.com/axisvela/praxovela-open
+    license: Apache-2.0
+    language: Go, Tauri
+    status: active
+    open_surface: true
+    problem: >-
+      Local agents need real capabilities without losing control of side
+      effects or the ability to recover.
+    value: >-
+      A deny-by-default local agent runtime with an effect ledger, sandboxing,
+      and replayable traces.
+    provides:
+      - capability gate
+      - effect ledger with crash recovery
+      - durable execution trace
+      - checkpoint and resume
+      - desktop app and HTTP API
+    relates_to:
+      - praxo-core
+      - mnemovela
+      - noetivela
+      - limenora
+      - aegivela
+    tags:
+      - agent-runtime
+      - local-first
+      - sandbox
+      - apache-2-0
+
+  - id: mnemovela
+    name: Mnemovela
+    kind: runtime
+    layer: runtime
+    repo: https://github.com/axisvela/mnemovela-open
+    license: Apache-2.0
+    language: Python, Go
+    status: active
+    open_surface: true
+    problem: >-
+      Agent memory is often an opaque vector store with no lifecycle, branches,
+      or governed forgetting.
+    value: >-
+      A typed, branchable, auditable cognition runtime with hybrid retrieval.
+    provides:
+      - typed cognitive memory
+      - Git-like commits and branches
+      - hybrid retrieval
+      - governed forgetting
+      - REST, gRPC, JSON-RPC, and MCP interfaces
+    relates_to:
+      - praxo-core
+      - praxovela
+      - gnosivela
+    tags:
+      - memory
+      - cognition
+      - retrieval
+      - apache-2-0
+
+  - id: noetivela
+    name: Noetivela
+    kind: runtime
+    layer: runtime
+    repo: https://github.com/axisvela/noetivela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Model and endpoint sprawl makes policy, cost, quality, latency, and
+      sovereignty hard to manage.
+    value: >-
+      An inference fabric with explicit contracts and governed routing.
+    provides:
+      - model and endpoint catalog
+      - inference contracts
+      - cloud, private, and edge routing
+      - OpenAI-compatible HTTP surface
+      - CLI and SDKs
+    relates_to:
+      - praxo-core
+      - praxovela
+      - tekmovela
+    tags:
+      - inference
+      - routing
+      - llm-gateway
+      - apache-2-0
+
+  - id: orchadyn
+    name: ORCHADYN
+    kind: control-plane
+    layer: work
+    repo: https://github.com/axisvela/orchadyn-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Plans generated by models are hard to inspect, compare, verify, and
+      revise.
+    value: >-
+      A planning compiler that produces verified, revisable, runtime-neutral
+      plans.
+    provides:
+      - plan generation from goals, state, capabilities, and constraints
+      - plan verification and explanation
+      - plan revision
+      - HTTP, MCP, and CLI interfaces
+    relates_to:
+      - moduregis
+      - rheovela
+      - symbivela
+      - tekmovela
+    tags:
+      - planning
+      - compiler
+      - apache-2-0
+
+  - id: moduregis
+    name: MODUREGIS
+    kind: control-plane
+    layer: work
+    repo: https://github.com/axisvela/moduregis-open
+    license: Apache-2.0
+    language: TypeScript, Go
+    status: active
+    open_surface: true
+    problem: >-
+      Enterprises cannot safely discover, authorize, invoke, and audit the
+      capabilities available to agents.
+    value: >-
+      A governed capability catalog with policy, invocation, and audit.
+    provides:
+      - capability registry
+      - discovery and governance
+      - authorization and invocation
+      - audit records
+      - management console, API, and CLI
+    relates_to:
+      - orchadyn
+      - rheovela
+      - aegivela
+      - syndovela
+    tags:
+      - capability
+      - control-plane
+      - registry
+      - apache-2-0
+
+  - id: rheovela
+    name: RHEOVELA
+    kind: runtime
+    layer: work
+    repo: https://github.com/axisvela/rheovela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Long-running processes need durability, idempotency, recovery, approvals,
+      and audit, not a script with retries.
+    value: >-
+      A durable workflow platform for governed capability plans.
+    provides:
+      - event-sourced process instances
+      - deterministic kernel
+      - idempotent command pipeline
+      - recovery
+      - five-language worker SDKs
+      - HTTP Worker API and OpenAPI
+    relates_to:
+      - orchadyn
+      - moduregis
+      - symbivela
+      - tekmovela
+    tags:
+      - workflow
+      - durability
+      - event-sourcing
+      - apache-2-0
+
+  - id: eidovela
+    name: EIDOVELA
+    kind: identity
+    layer: trust
+    repo: https://github.com/axisvela/eidovela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Agents are often authenticated with shared, long-lived API keys instead
+      of verifiable workload identity.
+    value: >-
+      An agent identity provider with workload attestation and
+      proof-of-possession tokens.
+    provides:
+      - agent identity issuance
+      - tenant trust domains
+      - workload attestation
+      - private_key_jwt enrollment
+      - PoP-bound tokens
+      - OIDC interfaces
+    relates_to:
+      - nomivela
+      - aegivela
+    tags:
+      - identity
+      - idp
+      - attestation
+      - apache-2-0
+
+  - id: nomivela
+    name: NOMIVELA
+    kind: registry
+    layer: trust
+    repo: https://github.com/axisvela/NOMIVELA-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      There is no system of record for agents, namespaces, authority bindings,
+      and lifecycle epochs.
+    value: >-
+      An agent registry and namespace authority with discovery and evidence.
+    provides:
+      - agent identity records
+      - namespaces
+      - authority bindings
+      - lifecycle epochs
+      - discovery APIs
+      - Go, Python, and Java SDKs
+    relates_to:
+      - eidovela
+      - aegivela
+    tags:
+      - registry
+      - namespace
+      - lifecycle
+      - apache-2-0
+
+  - id: aegivela
+    name: AEGIVELA
+    kind: authorization
+    layer: trust
+    repo: https://github.com/axisvela/aegivela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Agent authorization is coarse, delegated authority is hard to attenuate,
+      and revocation is slow.
+    value: >-
+      Authorization, delegation, approval, revocation, and security evidence
+      for agents.
+    provides:
+      - policy evaluation
+      - scope attenuation
+      - approvals and execution grants
+      - revocation
+      - attestation policy
+      - PEP SDK
+    relates_to:
+      - eidovela
+      - nomivela
+      - praxo-core
+      - moduregis
+      - symbivela
+    tags:
+      - authorization
+      - delegation
+      - policy
+      - apache-2-0
+
+  - id: gnosivela
+    name: GNOSIVELA
+    kind: knowledge
+    layer: knowledge
+    repo: https://github.com/axisvela/gnosivela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Enterprise concepts, claims, and conflicts are fragmented, so agents get
+      plausible context with no provenance.
+    value: >-
+      A semantic and knowledge fabric with evidence-backed assertions and
+      scoped grounding views.
+    provides:
+      - concept and ontology definitions
+      - entity resolution
+      - evidence-backed assertions
+      - conflict governance
+      - purpose-scoped grounding views
+      - SDKs and reference ontology
+    relates_to:
+      - ontovela
+      - praxo-core
+      - praxovela
+      - orchadyn
+    tags:
+      - knowledge
+      - ontology
+      - grounding
+      - apache-2-0
+
+  - id: ontovela
+    name: ONTOVELA
+    kind: world-model
+    layer: knowledge
+    repo: https://github.com/axisvela/ontovela-open
+    license: See repository
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Decisions need trustworthy current and historical operational state, not
+      just a dashboard snapshot.
+    value: >-
+      An evidence-bearing, bitemporal operational world model and digital twin.
+    provides:
+      - tenant-scoped world models
+      - evidence-bearing assertions
+      - bitemporal state
+      - twin state, snapshots, and changes
+      - SDKs
+    relates_to:
+      - gnosivela
+      - orchadyn
+      - peiravela
+      - tekmovela
+      - kinetovela
+    tags:
+      - digital-twin
+      - world-model
+      - bitemporal
+      - evidence
+
+  - id: limenora
+    name: LIMENORA
+    kind: gateway
+    layer: boundary
+    repo: https://github.com/axisvela/limenora-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Direct external access by agents bypasses policy, spreads credentials,
+      and leaves no reliable record.
+    value: >-
+      A governed north-south boundary for APIs, MCP servers, events, and
+      webhooks.
+    provides:
+      - edge and enterprise gateways
+      - HTTP proxy, CONNECT, webhooks, event ingress
+      - policy enforcement
+      - credential injection
+      - evidence
+    relates_to:
+      - praxo-core
+      - praxovela
+      - rheovela
+      - aegivela
+    tags:
+      - integration
+      - gateway
+      - mcp
+      - apache-2-0
+
+  - id: tekmovela
+    name: TEKMOVELA
+    kind: assurance
+    layer: assurance
+    repo: https://github.com/axisvela/tekmovela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Agent and autonomous-system behavior is hard to test, reproduce, and
+      defend at release time.
+    value: >-
+      Verification contracts, reproducible tests, and evidence-based release
+      gates.
+    provides:
+      - verification contracts
+      - governed test harnesses
+      - reproducible closed-loop testing
+      - trace-linked failure diagnosis
+      - release gates
+      - re-verification
+    relates_to:
+      - praxovela
+      - rheovela
+      - kinetovela
+      - peiravela
+    tags:
+      - assurance
+      - verification
+      - testing
+      - apache-2-0
+
+  - id: peiravela
+    name: PEIRAVELA
+    kind: assurance
+    layer: assurance
+    repo: https://github.com/axisvela/peiravela-open
+    license: Apache-2.0
+    language: TypeScript, Go
+    status: active
+    open_surface: true
+    problem: >-
+      High-risk autonomy changes cannot be tried safely in production, and
+      ad-hoc simulations are not reproducible.
+    value: >-
+      Governed possible-world experiments with provenance-complete evidence.
+    provides:
+      - governed simulation worlds
+      - reproducible scenario matrices
+      - simulation evidence
+      - independent verification
+      - Studio UI and API
+    relates_to:
+      - ontovela
+      - gnosivela
+      - tekmovela
+      - kinetovela
+    tags:
+      - simulation
+      - experiments
+      - evidence
+      - apache-2-0
+
+  - id: syndovela
+    name: SYNDOVELA
+    kind: assurance
+    layer: assurance
+    repo: https://github.com/axisvela/SYNDOVELA-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Agent skills are composed across runtimes without supply-chain
+      assurance.
+    value: >-
+      Governance for skill composition, signing, and provenance.
+    provides:
+      - cross-runtime skill composition model
+      - SDKs and contracts
+      - signed release binaries
+      - supply-chain metadata
+    relates_to:
+      - moduregis
+      - praxovela
+      - tekmovela
+    tags:
+      - supply-chain
+      - skills
+      - provenance
+      - apache-2-0
+
+  - id: symbivela
+    name: SYMBIVELA
+    kind: human-control
+    layer: human
+    repo: https://github.com/axisvela/symbivela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Human oversight is often reduced to a notification and a yes/no button.
+    value: >-
+      A collaboration workspace for goals, plan review, approvals, exceptions,
+      intervention, and evidence.
+    provides:
+      - goal setting
+      - plan review
+      - approvals
+      - exception queues
+      - intervention and handoffs
+      - outcome acceptance
+    relates_to:
+      - rheovela
+      - moduregis
+      - aegivela
+      - tekmovela
+    tags:
+      - hitl
+      - human-sovereignty
+      - collaboration
+      - apache-2-0
+
+  - id: kinetovela
+    name: KINETOVELA
+    kind: physical-autonomy
+    layer: physical
+    repo: https://github.com/axisvela/kinetovela-open
+    license: Apache-2.0
+    language: Go
+    status: active
+    open_surface: true
+    problem: >-
+      Robot fleets need bounded, observable, and recoverable mission execution
+      before they can operate outside a lab.
+    value: >-
+      A governed physical-autonomy control plane for fleet and mission
+      operations.
+    provides:
+      - fleet and mission operations
+      - public contracts and SDKs
+      - adapter patterns
+      - observable mission state
+      - binary releases
+    relates_to:
+      - ontovela
+      - orchadyn
+      - tekmovela
+      - peiravela
+      - symbivela
+    tags:
+      - robotics
+      - physical-ai
+      - fleet
+      - apache-2-0
+
+  - id: enterprise-autonomy
+    name: Enterprise Autonomy
+    kind: program
+    layer: program
+    repo: https://github.com/axisvela/enterprise-autonomy
+    license: See repository
+    language: Go
+    status: active
+    open_surface: false
+    problem: >-
+      A catalog of products does not explain how they compose end to end.
+    value: >-
+      Public introductions, reference stacks, and runnable examples that show
+      the seams in use.
+    provides:
+      - product introductions
+      - end-to-end scenarios
+      - thirteen runnable demos
+      - technical catalog
+      - adoption guidance
+    relates_to:
+      - praxo-core
+      - taxovela
+      - harmovela
+      - coordivela
+      - praxovela
+      - mnemovela
+      - noetivela
+      - orchadyn
+      - moduregis
+      - rheovela
+      - eidovela
+      - nomivela
+      - aegivela
+      - gnosivela
+      - ontovela
+      - limenora
+      - tekmovela
+      - peiravela
+      - syndovela
+      - symbivela
+      - kinetovela
+      - pamp
+    tags:
+      - examples
+      - reference-architecture
+      - program
+
+  - id: pamp
+    name: PAMP
+    kind: adjacent
+    layer: adjacent
+    repo: https://github.com/axisvela/AXISRobo-PAMP
+    license: See repository
+    language: Python
+    status: active
+    open_surface: false
+    problem: >-
+      Enterprise-architecture portfolios need a practical management platform.
+    value: >-
+      A practical platform for enterprise architecture management, adjacent to
+      design and validation.
+    relates_to:
+      - taxovela
+      - enterprise-autonomy
+    tags:
+      - enterprise-architecture
+      - portfolio
+      - adjacent
+
+  - id: ea-harness
+    name: ea-harness
+    kind: related
+    layer: related
+    repo: https://github.com/axisvela/ea-harness
+    license: MIT
+    language: Python
+    status: active
+    open_surface: false
+    problem: >-
+      An earlier public implementation of architecture design and validation
+      skills for AI coding assistants.
+    value: >-
+      A separate, earlier skill-pack project; TAXOVELA is the current AI-native
+      architecture project.
+    relates_to:
+      - taxovela
+    tags:
+      - architecture
+      - skills
+      - related
