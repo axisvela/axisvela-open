@@ -36,6 +36,12 @@ PEIRAVELA 消费 [ONTOVELA](ontovela.md) 的世界模型与 [GNOSIVELA](gnosivel
 它的证据进入 [TEKMOVELA](tekmovela.md) 发布门禁，并影响
 [KINETOVELA](kinetovela.md) 任务设计。
 
+## 学习边界
+
+PEIRAVELA 保留实验世界、扰动与原始 SimulationEvidence。[DIDACTOVELA](didactovela.md)
+预期拥有准入后的 episode、数据集快照、标签与训练谱系，而不是第二个仿真控制平面。
+DIDACTOVELA 为未发布的 0.1.0，仅 bootstrap 初始化阶段；证据到数据集的交接为规划，尚未交付。
+
 ## 开始
 
 - [Peiravela Open 仓库](https://github.com/axisvela/peiravela-open)

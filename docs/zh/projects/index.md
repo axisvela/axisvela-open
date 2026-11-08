@@ -33,10 +33,16 @@
 | [SYNDOVELA](syndovela.md) | 保障 | Agent 技能跨运行时组合，缺少供应链保障 | 技能组合治理、签名产物、溯源 | Apache-2.0 |
 | [SYMBIVELA](symbivela.md) | 人类 | 人对 Agent 计划与异常失去实质控制 | 目标、审批、干预与证据的协作工作台 | Apache-2.0 |
 | [KINETOVELA](kinetovela.md) | 物理 | 机器人集群需要安全、可观测、可恢复的任务执行 | 物理自治控制平面：集群与任务操作 | Apache-2.0 |
+| [AKROVELA](akrovela.md) | 物理 / 站点执行 | 本地执行事实的归属需与 Mission 控制分离 | 未发布 0.1.0 bootstrap：运行健康、schema 就绪检查、版本 API 与源码 Go 版本客户端 | 开源 Apache-2.0；核心 AGPL-3.0-only；EE 专有 |
+| [DIDACTOVELA](didactovela.md) | 学习 | 学习输入与候选产物的溯源需与部署权威分离 | 未发布 0.1.0 bootstrap：运行健康、schema 就绪检查、版本 API 与源码 Go 版本客户端 | 开源 Apache-2.0；核心 AGPL-3.0-only；EE 专有 |
 | [Enterprise Autonomy](enterprise-autonomy.md) | 项目计划 | 很难看到产品如何端到端组合 | 公开介绍、参考栈、可运行示例 | 见仓库 |
 | [PAMP](pamp.md) | 相邻 | 企业架构组合需要实用管理平台 | 企业架构管理平台 | 见仓库 |
 
 ## 按问题选择
+
+AKROVELA 预期的本地操作、尝试与回执，以及 DIDACTOVELA 预期的 episode、数据集、标签、
+训练与候选产物均为**未来范围，尚未交付**。两者均不提供领域执行、数据集、训练、机器人
+集成、二进制或已发布的 SDK。新增关系仅为规划。
 
 | 问题 | 起点 |
 | --- | --- |

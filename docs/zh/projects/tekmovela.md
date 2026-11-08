@@ -37,6 +37,12 @@ TEKMOVELA 验证 [PRAXOVELA](praxovela.md) 等 Agent 与运行时、[RHEOVELA](r
 中的流程，以及 [KINETOVELA](kinetovela.md) 中的任务。它消费被验证系统的追踪与证据，
 并可使用 [PEIRAVELA](peiravela.md) 做安全实验。
 
+## 独立保障边界
+
+TEKMOVELA 保留独立保障结论。未来 [AKROVELA](akrovela.md) 的执行成功与
+[DIDACTOVELA](didactovela.md) 的训练指标只是生产者证据，不能自行签发保障通过。
+两者均为未发布的 0.1.0，仅 bootstrap 初始化阶段；这些评估交接为规划，尚未交付。
+
 ## 开始
 
 - [Tekmovela Open 仓库](https://github.com/axisvela/tekmovela-open)

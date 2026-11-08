@@ -37,6 +37,12 @@ Noetivela 填充 [PRAXO-CORE](praxo-core.md) 的模型接缝，为
 [GNOSIVELA](gnosivela.md)（有据可依的上下文）和 [TEKMOVELA](tekmovela.md)
 （评估模型相关行为）自然搭配。
 
+## 候选产物边界
+
+Noetivela 保留生产模型与推理端点权威。[DIDACTOVELA](didactovela.md) 预期产出候选
+学习策略产物，不激活端点，也不授予执行权限。DIDACTOVELA 为未发布的 0.1.0，仅 bootstrap
+初始化阶段；候选产物交接为规划，尚未交付，未来仍须显式授权部署准入。
+
 ## 开始
 
 - [Noetivela Open 仓库](https://github.com/axisvela/noetivela-open)

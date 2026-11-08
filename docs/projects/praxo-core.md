@@ -53,6 +53,14 @@ starting point for external agents. Its seams connect to:
 Adapters are optional and product-owned. The framework does not import product
 code.
 
+## Unchanged framework boundary
+
+[AKROVELA](akrovela.md) and [DIDACTOVELA](didactovela.md) are unreleased 0.1.0
+bootstrap products, not extensions to the Core API. PRAXO-CORE remains the MIT
+Agent framework; a future AKROVELA adapter could host an embedding runtime, not
+redefine Agent Runs, Mission effects or durable Processes. No such integration
+or robotics control loop is shipped by this documentation update.
+
 ## Start
 
 - [Repository and quickstart](https://github.com/axisvela/praxo-core)

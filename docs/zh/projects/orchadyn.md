@@ -36,6 +36,12 @@ Orchadyn 位于意图与执行之间。它的计划可以由 [MODUREGIS](modureg
 [RHEOVELA](rheovela.md) 执行、由 [SYMBIVELA](symbivela.md) 评审、由
 [TEKMOVELA](tekmovela.md) 验证。
 
+## 边缘与学习边界
+
+ORCHADYN 保留计划分解与委托策略。[AKROVELA](akrovela.md) 预期的本地尝试与
+[DIDACTOVELA](didactovela.md) 预期的学习谱系不会变成规划器。两者均为未发布的 0.1.0，
+仅 bootstrap 初始化阶段；相关集成为规划，尚未交付，也不转移 Mission 或持久 Process 权威。
+
 ## 开始
 
 - [Orchadyn Open 仓库](https://github.com/axisvela/orchadyn-open)

@@ -28,6 +28,8 @@
 | Syndovela Open | [SYNDOVELA-open](https://github.com/axisvela/SYNDOVELA-open) | Apache-2.0 | 开放接口层 |
 | Symbivela Open | [symbivela-open](https://github.com/axisvela/symbivela-open) | Apache-2.0 | 开放接口层 |
 | Kinetovela Open | [kinetovela-open](https://github.com/axisvela/kinetovela-open) | Apache-2.0 | 开放接口层 |
+| AKROVELA Open | [akrovela-open](https://github.com/axisvela/akrovela-open) | Apache-2.0 | 仅开源 bootstrap，未发布 0.1.0；核心 AGPL-3.0-only，EE 专有。 |
+| DIDACTOVELA Open | [didactovela-open](https://github.com/axisvela/didactovela-open) | Apache-2.0 | 仅开源 bootstrap，未发布 0.1.0；核心 AGPL-3.0-only，EE 专有。 |
 | Enterprise Autonomy | [enterprise-autonomy](https://github.com/axisvela/enterprise-autonomy) | 见仓库 | 公开介绍与示例 |
 | PAMP | [AXISRobo-PAMP](https://github.com/axisvela/AXISRobo-PAMP) | 见仓库 | GitHub 报告为 NOASSERTION |
 | ea-harness | [ea-harness](https://github.com/axisvela/ea-harness) | MIT | 早期架构技能包项目 |
@@ -36,6 +38,11 @@
 
 Apache-2.0 的 `*-open` 仓库通常包含契约、SDK、示例，有时包含二进制。运行时核心或企业版
 可能单独开发。见[开放接口层](../concepts/open-surfaces.md)。
+
+AKROVELA 与 DIDACTOVELA 目前只有运行健康、schema 就绪检查、版本 API 与源码形式的
+Go 版本客户端，没有已发布的 SDK 或二进制。未来分发的二进制保留自身许可证，核心二进制
+仍须遵守 AGPL 义务。仓库位置不会改变产物许可；开源部分的 Apache 许可不覆盖专有 EE，
+也不会将核心重新许可。
 
 ## 报告许可证错误
 

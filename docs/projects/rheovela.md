@@ -39,6 +39,13 @@ governed by [MODUREGIS](moduregis.md). Human approvals and exceptions can be
 routed through [SYMBIVELA](symbivela.md), and outcomes can be verified by
 [TEKMOVELA](tekmovela.md).
 
+## Site execution boundary
+
+RHEOVELA retains durable cross-service Process state, leases/fencing and recovery.
+[AKROVELA](akrovela.md) is intended to own local attempts and receipts; its future
+journal is not a second workflow engine. AKROVELA is unreleased 0.1.0 bootstrap
+only; workflow-to-site delegation is planned, not shipped.
+
 ## Start
 
 - [Rheovela Open repository](https://github.com/axisvela/rheovela-open)

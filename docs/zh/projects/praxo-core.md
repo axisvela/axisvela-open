@@ -44,6 +44,13 @@ PRAXO-CORE 是 [PRAXOVELA](praxovela.md) 的基础，也是外部 Agent 的自�
 
 适配器是可选的，且由产品拥有。框架不导入产品代码。
 
+## 框架边界不变
+
+[AKROVELA](akrovela.md) 与 [DIDACTOVELA](didactovela.md) 是未发布的 0.1.0 bootstrap
+产品，不是 Core API 扩展。PRAXO-CORE 仍是 MIT Agent 框架；未来 AKROVELA 适配器可以
+承载嵌入框架的运行时，但不重新定义 Agent Run、Mission 效果或持久 Process。
+本次文档更新不意味着已交付此类集成或机器人控制循环。
+
 ## 开始
 
 - [仓库与快速开始](https://github.com/axisvela/praxo-core)

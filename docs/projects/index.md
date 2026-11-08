@@ -35,10 +35,17 @@ records the distinction.
 | [SYNDOVELA](syndovela.md) | Assurance | Agent skills are composed across runtimes without supply-chain assurance | Skill composition governance, signed artifacts, provenance | Apache-2.0 |
 | [SYMBIVELA](symbivela.md) | Human | Humans lose meaningful control of agent plans and exceptions | Collaboration workspace for goals, approvals, intervention, evidence | Apache-2.0 |
 | [KINETOVELA](kinetovela.md) | Physical | Robot fleets need safe, observable, recoverable mission execution | Physical-autonomy control plane for fleet and mission operations | Apache-2.0 |
+| [AKROVELA](akrovela.md) | Physical / site execution | Local execution facts need ownership separate from Mission control | Unreleased 0.1.0 bootstrap: operational health/schema-readiness/version APIs and source Go version client | Apache-2.0 open source; AGPL-3.0-only core; proprietary EE |
+| [DIDACTOVELA](didactovela.md) | Learning | Learning inputs and candidates need provenance separate from deployment authority | Unreleased 0.1.0 bootstrap: operational health/schema-readiness/version APIs and source Go version client | Apache-2.0 open source; AGPL-3.0-only core; proprietary EE |
 | [Enterprise Autonomy](enterprise-autonomy.md) | Program | It is hard to see how the products compose end to end | Public introduction, reference stacks, runnable examples | See repo |
 | [PAMP](pamp.md) | Adjacent | Enterprise-architecture portfolios need a practical management platform | Enterprise architecture management platform | See repo |
 
 ## Choose by problem
+
+AKROVELA's intended local operations/attempts/receipts and DIDACTOVELA's intended
+episodes/datasets/labels/training/candidates are **future scope, not shipped**.
+Neither bootstrap provides domain execution, datasets, training, robot
+integration, binaries or published SDKs. New relationships are planned only.
 
 | Problem | Useful starting points |
 | --- | --- |

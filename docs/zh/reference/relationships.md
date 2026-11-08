@@ -15,7 +15,7 @@
 | PRAXO-CORE | 策略接缝 | AEGIVELA | 授权决定可门禁工具调用 |
 | PRAXO-CORE | 工具接缝 | LIMENORA | 外部工具可通过受治理网关到达 |
 | PRAXO-CORE | 执行接缝 | RHEOVELA | 图或流程执行可委托给持久运行时 |
-| EIDOVELA | 签发身份 | NOMIVELA | 签发的身份记录在注册中心 |
+| NOMIVELA | 注册上下文 | EIDOVELA | 身份签发/验证消费注册与权限绑定上下文，不接管注册表写入 |
 | EIDOVELA | 已验证身份 | AEGIVELA | 授权消费已验证身份上下文 |
 | NOMIVELA | 权限上下文 | AEGIVELA | 绑定与生命周期纪元影响策略决定 |
 | GNOSIVELA | 锚定 | ONTOVELA | 概念与证据锚定世界模型 |
@@ -35,6 +35,28 @@
 | HARMOVELA | 运行时协调 | PRAXO-CORE Agent | Agent 与运行时获得异步协调 |
 | Enterprise Autonomy | 组合 | 所有项目 | 端到端示例展示接缝如何被使用 |
 
+## 规划关系：尚未交付
+
+[AKROVELA](../projects/akrovela.md) 与 [DIDACTOVELA](../projects/didactovela.md)
+均为**未发布的 0.1.0，仅 bootstrap 初始化阶段**：只有运行健康、schema 就绪检查、版本 API
+与源码形式的 Go 版本客户端。没有领域执行、数据集、训练、机器人集成、二进制或已发布的
+SDK。下表所有关系均为规划，在[生态地图](../ecosystem-map.md)中使用虚线；不是已验证的
+集成，也不是 Enterprise Autonomy 已有示例。
+
+| 从 | 规划关系 | 到 | 权威边界 |
+| --- | --- | --- | --- |
+| KINETOVELA | 受限操作 | AKROVELA | Mission、分配与效果生命周期仍属 KINETOVELA；本地尝试与回执是 AKROVELA 预期范围。 |
+| SYNDOVELA | 期望组合 | AKROVELA | Bundle、ResolutionLock 与期望 Runtime Profile 仍属 SYNDOVELA；不再造解析器。 |
+| MODUREGIS | 能力引用 | AKROVELA | 能力契约仍属 MODUREGIS；ORCHADYN 仍是规划器。 |
+| RHEOVELA | 工作流委托 | AKROVELA | 跨服务持久 Process 仍属 RHEOVELA；本地日志不是工作流权威。 |
+| AKROVELA | 采集引用 | DIDACTOVELA | 预期采集准入与数据集谱系不转移 Mission 权威。 |
+| PEIRAVELA | 原始实验证据 | DIDACTOVELA | 原始 SimulationEvidence 仍属 PEIRAVELA；数据集快照与标签是 DIDACTOVELA 预期范围。 |
+| DIDACTOVELA | 候选产物 | NOETIVELA | 生产模型与端点激活须显式授权准入；训练不是部署。 |
+| DIDACTOVELA | 评估输入 | TEKMOVELA | 生产者指标不能签发独立保障结论。 |
+
+ONTOVELA 保留运营世界真相，不是原始学习 episode。PRAXO-CORE 仍是 MIT 框架，不意味着
+新增 Core API 或机器人运行时。机器人本地安全独立于 Mission 与站点执行。
+
 ## 如何读这些边
 
 - **接缝是可选的。** PRAXO-CORE 可以在没有 NOETIVELA 或 MNEMOVELA 的情况下运行。
@@ -45,4 +67,4 @@
 
 同样的关系在
 [`projects.yaml`](https://github.com/axisvela/axisvela-open/blob/main/projects.yaml) 的
-`relates_to` 中表示。
+`relates_to` 中表示。两个 bootstrap 条目的 `value` 已明确这些是规划关联，不是已交付依赖。

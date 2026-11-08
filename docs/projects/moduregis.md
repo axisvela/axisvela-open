@@ -39,6 +39,14 @@ MODUREGIS governs the capability layer used by [ORCHADYN](orchadyn.md) plans and
 [AEGIVELA](aegivela.md) for authorization and
 [SYNDOVELA](syndovela.md) for skill supply-chain concerns.
 
+## Edge capability boundary
+
+MODUREGIS retains capability contracts, immutable references and CapabilityPlan
+publication. [AKROVELA](akrovela.md)'s intended site execution consumes governed
+references rather than creating a second catalog; robotics is a domain profile.
+AKROVELA is unreleased 0.1.0 bootstrap only; capability integration is planned,
+not shipped.
+
 ## Start
 
 - [Moduregis Open repository](https://github.com/axisvela/moduregis-open)

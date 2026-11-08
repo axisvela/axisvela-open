@@ -60,10 +60,19 @@ Different projects answer these questions at different layers. The
 | Trust and knowledge | Identity, registry, authorization, grounding, world models | EIDOVELA, NOMIVELA, AEGIVELA, GNOSIVELA, ONTOVELA |
 | Boundary and assurance | Integration, verification, simulation, skill supply chain | LIMENORA, TEKMOVELA, PEIRAVELA, SYNDOVELA |
 | Human and physical operations | Human oversight, robot fleet control | SYMBIVELA, KINETOVELA |
+| Site execution (planned) | Local operations, attempts and receipts | [AKROVELA](docs/projects/akrovela.md), bootstrap |
+| Data and learning (planned) | Learning inputs and candidate artifacts | [DIDACTOVELA](docs/projects/didactovela.md), bootstrap |
 | Program | End-to-end composition and examples | Enterprise Autonomy |
 
 The layers are a reading aid, not a dependency chain. Products integrate through
 versioned contracts and can be adopted independently.
+
+AKROVELA and DIDACTOVELA are **unreleased 0.1.0, bootstrap only**: operational
+health/schema-readiness/version APIs and source Go version clients. Their domain
+scope and integration edges are planned, not shipped. Neither provides domain
+execution, datasets, training, robot integration, binaries or published SDKs.
+Their open source is Apache-2.0, core AGPL-3.0-only and EE proprietary; any future
+binaries retain their own licenses.
 
 ## Open surfaces and commercial editions
 
@@ -118,6 +127,10 @@ public repositories are the open surface; commercial and enterprise editions are
 developed separately.
 
 ## Contributing, security, and license
+
+After installing `requirements-docs.txt`, validate registry/bilingual links with
+`python -m unittest discover -s tests -v` and build with `mkdocs build --strict`.
+These are documentation checks, not product interoperability evidence.
 
 - [Contributing](CONTRIBUTING.md) — documentation fixes, project proposals, and
   the boundary between this repo and product repos.

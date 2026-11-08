@@ -36,6 +36,14 @@ SYNDOVELA is a supply-chain layer for skills governed by
 [PRAXOVELA](praxovela.md). It complements [TEKMOVELA](tekmovela.md) assurance by
 covering the provenance of the artifacts under test.
 
+## Site runtime boundary
+
+SYNDOVELA retains desired Bundle composition, ResolutionLocks and Runtime
+Profiles. [AKROVELA](akrovela.md) is intended to validate/load supported artifacts
+and report actual state, not become a second resolver. AKROVELA is unreleased
+0.1.0 bootstrap only; this integration is planned, not shipped, and must not
+silently weaken SBRP partition behavior or imply offline execution.
+
 ## Start
 
 - [Syndovela Open repository](https://github.com/axisvela/SYNDOVELA-open)

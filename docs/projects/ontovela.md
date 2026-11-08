@@ -40,6 +40,13 @@ provides operational context to [ORCHADYN](orchadyn.md),
 The public repository is the developer platform surface; check the repository
 for current license and availability.
 
+## Learning data boundary
+
+ONTOVELA retains operational world truth. [DIDACTOVELA](didactovela.md) is
+intended to own raw learning episodes and dataset lineage; recorded or simulated
+learning state must not overwrite operational reality. DIDACTOVELA is unreleased
+0.1.0 bootstrap only; no episode integration is shipped.
+
 ## Start
 
 - [Ontovela Open repository](https://github.com/axisvela/ontovela-open)

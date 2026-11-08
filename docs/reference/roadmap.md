@@ -7,6 +7,13 @@ products. Product roadmaps live in their own repositories.
 
 ## Near term
 
+The 2026-11-08 map update adds AKROVELA and DIDACTOVELA as unreleased 0.1.0
+bootstraps, not shipped execution or learning integrations. Keep their status,
+planned relationship edges, license distinctions and English/Chinese pages in
+sync with owning repositories. Do not relabel existing gateways, edge inference
+or evidence spools as migrated implementations. Functional delivery plans remain
+with the products; this roadmap tracks documentation only.
+
 - Keep product pages aligned with the authoritative repositories.
 - Add more diagrams for the end-to-end practice guides.
 - Improve cross-linking between theory, architecture, and practice.

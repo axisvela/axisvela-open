@@ -36,6 +36,12 @@ KINETOVELA 消费 [ONTOVELA](ontovela.md) 世界状态、[ORCHADYN](orchadyn.md)
 [TEKMOVELA](tekmovela.md) 验证。任务可以在 [PEIRAVELA](peiravela.md) 中仿真，再通过
 [SYMBIVELA](symbivela.md) 审批。
 
+## 边缘执行边界
+
+KINETOVELA 保留 Mission、分配与效果生命周期权威。[AKROVELA](akrovela.md) 预期拥有
+本地操作、尝试与回执，不能独立完成、重新分配或补偿 Mission。AKROVELA 为未发布的
+0.1.0，仅 bootstrap 初始化阶段；该委托为规划，尚未交付。机器人本地安全与急停仍须独立。
+
 ## 开始
 
 - [Kinetovela Open 仓库](https://github.com/axisvela/kinetovela-open)

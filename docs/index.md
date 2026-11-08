@@ -37,6 +37,13 @@ architecture, practice, and vocabulary needed to reason about agent systems.
 
 ## A note on independence
 
+[AKROVELA](projects/akrovela.md) (intended site execution) and
+[DIDACTOVELA](projects/didactovela.md) (intended data and learning lifecycle) are
+**unreleased 0.1.0 bootstrap only**. Available baseline: operational
+health/schema-readiness/version APIs and source Go version clients. Domain
+execution, datasets, training, robot integration, binaries and published SDKs
+are not available; new ecosystem edges are planned, not shipped.
+
 The projects are independently versioned. This repository does not contain their
 source code and does not override their documentation. If a product page and a
 product repository disagree, the product repository wins. If a theory page and a

@@ -14,7 +14,7 @@ projects must be deployed together.
 | PRAXO-CORE | policy seam | AEGIVELA | Authorization decisions can gate tool calls. |
 | PRAXO-CORE | tool seam | LIMENORA | External tools can be reached through a governed gateway. |
 | PRAXO-CORE | execution seam | RHEOVELA | Graph or process execution can be delegated to a durable runtime. |
-| EIDOVELA | issues identity | NOMIVELA | Issued identities are recorded in the registry. |
+| NOMIVELA | registry context | EIDOVELA | Identity issuance/verification consumes registry and authority-binding context without taking registry write ownership. |
 | EIDOVELA | verified identity | AEGIVELA | Authorization consumes a verified identity context. |
 | NOMIVELA | authority context | AEGIVELA | Bindings and lifecycle epochs inform policy decisions. |
 | GNOSIVELA | grounds | ONTOVELA | Concepts and evidence-backing ground the world model. |
@@ -34,6 +34,30 @@ projects must be deployed together.
 | HARMOVELA | runtime coordination | PRAXO-CORE agents | Async coordination is available to agents and runtimes. |
 | Enterprise Autonomy | composes | All projects | End-to-end examples show the seams in use. |
 
+## Planned edges: not shipped
+
+[AKROVELA](../projects/akrovela.md) and [DIDACTOVELA](../projects/didactovela.md)
+are **unreleased 0.1.0 bootstrap only**: operational health/schema-readiness/version
+APIs and source Go version clients. They have no domain execution, datasets,
+training, robot integration, binaries or published SDKs. Every edge below is
+planned, shown dashed on the [ecosystem map](../ecosystem-map.md), not a verified
+integration or an Enterprise Autonomy example.
+
+| From | Planned relationship | To | Authority boundary |
+| --- | --- | --- | --- |
+| KINETOVELA | bounded operations | AKROVELA | Mission/assignment/effect lifecycle stays with KINETOVELA; local attempts and receipts belong to AKROVELA's intended scope. |
+| SYNDOVELA | desired composition | AKROVELA | Bundle, ResolutionLock and desired Runtime Profile stay with SYNDOVELA; no second resolver. |
+| MODUREGIS | capability references | AKROVELA | Capability contracts stay with MODUREGIS; ORCHADYN remains the planner. |
+| RHEOVELA | workflow delegation | AKROVELA | Durable cross-service Process stays with RHEOVELA; local journaling is not workflow authority. |
+| AKROVELA | capture references | DIDACTOVELA | Intended capture admission and dataset lineage do not transfer Mission authority. |
+| PEIRAVELA | raw experiment evidence | DIDACTOVELA | Raw SimulationEvidence stays with PEIRAVELA; dataset snapshots and labels are DIDACTOVELA's intended scope. |
+| DIDACTOVELA | candidate artifacts | NOETIVELA | Production model/endpoint activation requires explicit authorized admission; training is not deployment. |
+| DIDACTOVELA | assessment inputs | TEKMOVELA | Producer metrics cannot issue independent assurance verdicts. |
+
+ONTOVELA retains operational world truth, not raw learning episodes. PRAXO-CORE
+remains the MIT framework; no new Core API or robotics runtime is implied.
+Robot-local safety remains independent of Mission and site execution.
+
 ## Reading the edges
 
 - **Seams are optional.** PRAXO-CORE can run without NOETIVELA or MNEMOVELA.
@@ -46,4 +70,5 @@ projects must be deployed together.
 
 The same relationships are represented in
 [`projects.yaml`](https://github.com/axisvela/axisvela-open/blob/main/projects.yaml)
-under `relates_to`.
+under `relates_to`. For the two bootstrap entries these are planned associations,
+as stated in their `value` wording, not shipped dependencies.

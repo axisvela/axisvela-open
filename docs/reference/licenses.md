@@ -27,6 +27,8 @@ specific repository is authoritative.**
 | Syndovela Open | [SYNDOVELA-open](https://github.com/axisvela/SYNDOVELA-open) | Apache-2.0 | Open surface. |
 | Symbivela Open | [symbivela-open](https://github.com/axisvela/symbivela-open) | Apache-2.0 | Open surface. |
 | Kinetovela Open | [kinetovela-open](https://github.com/axisvela/kinetovela-open) | Apache-2.0 | Open surface. |
+| AKROVELA Open | [akrovela-open](https://github.com/axisvela/akrovela-open) | Apache-2.0 | Open source bootstrap only; unreleased 0.1.0. Core AGPL-3.0-only; EE proprietary. |
+| DIDACTOVELA Open | [didactovela-open](https://github.com/axisvela/didactovela-open) | Apache-2.0 | Open source bootstrap only; unreleased 0.1.0. Core AGPL-3.0-only; EE proprietary. |
 | Enterprise Autonomy | [enterprise-autonomy](https://github.com/axisvela/enterprise-autonomy) | See repository | Public introduction and examples. |
 | PAMP | [AXISRobo-PAMP](https://github.com/axisvela/AXISRobo-PAMP) | See repository | License reported as NOASSERTION by GitHub. |
 | ea-harness | [ea-harness](https://github.com/axisvela/ea-harness) | MIT | Earlier architecture skill-pack project. |
@@ -36,6 +38,13 @@ specific repository is authoritative.**
 An Apache-2.0 `*-open` repository usually contains contracts, SDKs, examples,
 and sometimes binaries. The runtime core or enterprise edition may be developed
 separately. See [Open surfaces](../concepts/open-surfaces.md).
+
+AKROVELA and DIDACTOVELA currently expose only operational
+health/schema-readiness/version APIs and source Go version clients, not published
+SDKs or binaries. Any future distributed binaries retain their own licenses,
+including AGPL obligations for core binaries. Repository location does not
+relicense an artifact; the Apache license on open source does not cover the
+proprietary EE or relicense the core.
 
 ## Reporting a license error
 

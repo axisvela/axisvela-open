@@ -38,6 +38,14 @@ processes in [RHEOVELA](rheovela.md), and missions in
 [KINETOVELA](kinetovela.md). It consumes traces and evidence from the systems it
 verifies and can use [PEIRAVELA](peiravela.md) for safe experimentation.
 
+## Independent assurance boundary
+
+TEKMOVELA retains independent assurance verdicts. Future
+[AKROVELA](akrovela.md) execution success and [DIDACTOVELA](didactovela.md)
+training metrics are producer evidence, not self-issued assurance passes. Both
+products are unreleased 0.1.0 bootstrap only; these assessment handoffs are
+planned, not shipped.
+
 ## Start
 
 - [Tekmovela Open repository](https://github.com/axisvela/tekmovela-open)

@@ -1,6 +1,6 @@
 schema_version: 1
 organization: axisvela
-updated: "2026-10-23"
+updated: "2026-11-08"
 docs_license: Apache-2.0
 description: >-
   Machine-readable index of the AxisVela public project family. The repository
@@ -732,6 +732,70 @@ projects:
       - robotics
       - physical-ai
       - fleet
+      - apache-2-0
+
+  - id: akrovela
+    name: AKROVELA
+    kind: edge-execution
+    layer: physical
+    repo: https://github.com/axisvela/akrovela-open
+    license: Apache-2.0
+    language: Go
+    status: bootstrap
+    open_surface: true
+    problem: >-
+      Site-local execution facts need a distinct owner without duplicating
+      Mission control, durable workflow, or robot-local safety.
+    value: >-
+      Unreleased 0.1.0 bootstrap only. Intended future scope is governed edge
+      and site execution: local operations, attempts, receipts and reconciliation.
+      Relationships below are planned, not shipped integrations. No domain
+      execution, datasets, training, robot integration, binary or SDK publication
+      is available.
+    provides:
+      - operational health, schema-readiness and version APIs
+      - source Go version client
+    relates_to:
+      - kinetovela
+      - syndovela
+      - moduregis
+      - rheovela
+      - didactovela
+    tags:
+      - bootstrap
+      - edge-execution
+      - apache-2-0
+
+  - id: didactovela
+    name: DIDACTOVELA
+    kind: learning-lifecycle
+    layer: learning
+    repo: https://github.com/axisvela/didactovela-open
+    license: Apache-2.0
+    language: Go
+    status: bootstrap
+    open_surface: true
+    problem: >-
+      Learning inputs and candidate artifacts need provenance and lifecycle
+      governance separate from production inference and independent assurance.
+    value: >-
+      Unreleased 0.1.0 bootstrap only. Intended future scope is capture admission,
+      episodes, dataset snapshots, labels, reproducible training and candidate
+      learned-policy artifacts. Relationships below are planned, not shipped
+      integrations. No datasets, training, domain execution, robot integration,
+      binary or SDK publication is available.
+    provides:
+      - operational health, schema-readiness and version APIs
+      - source Go version client
+    relates_to:
+      - akrovela
+      - peiravela
+      - noetivela
+      - tekmovela
+      - ontovela
+    tags:
+      - bootstrap
+      - learning-lifecycle
       - apache-2-0
 
   - id: enterprise-autonomy

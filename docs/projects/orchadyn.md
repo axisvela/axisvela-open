@@ -39,6 +39,14 @@ Orchadyn sits between intent and execution. Its plans can be governed by
 [MODUREGIS](moduregis.md), executed by [RHEOVELA](rheovela.md), reviewed by
 [SYMBIVELA](symbivela.md), and verified by [TEKMOVELA](tekmovela.md).
 
+## Edge and learning boundary
+
+ORCHADYN retains plan decomposition and delegation strategy.
+[AKROVELA](akrovela.md)'s intended local attempts and
+[DIDACTOVELA](didactovela.md)'s intended learning lineage do not become planners.
+Both are unreleased 0.1.0 bootstrap only; related integration is planned, not
+shipped, and does not transfer Mission or durable Process authority.
+
 ## Start
 
 - [Orchadyn Open repository](https://github.com/axisvela/orchadyn-open)

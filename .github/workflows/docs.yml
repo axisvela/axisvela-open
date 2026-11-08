@@ -26,6 +26,7 @@ jobs:
           cache: pip
           cache-dependency-path: requirements-docs.txt
       - run: pip install -r requirements-docs.txt
+      - run: python -m unittest discover -s tests -v
       - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:

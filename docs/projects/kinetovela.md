@@ -37,6 +37,14 @@ KINETOVELA consumes world state from [ONTOVELA](ontovela.md), plans from
 be simulated in [PEIRAVELA](peiravela.md) before a mission is approved through
 [SYMBIVELA](symbivela.md).
 
+## Edge execution boundary
+
+KINETOVELA retains Mission, assignment and effect lifecycle authority.
+[AKROVELA](akrovela.md) is intended to own local operations, attempts and receipts,
+not independently complete, reassign or compensate Missions. AKROVELA is
+unreleased 0.1.0 bootstrap only; this delegation is planned, not shipped.
+Robot-local safety and emergency stops remain independent.
+
 ## Start
 
 - [Kinetovela Open repository](https://github.com/axisvela/kinetovela-open)

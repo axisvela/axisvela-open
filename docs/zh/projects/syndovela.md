@@ -34,6 +34,13 @@ SYNDOVELA 把技能组合当作受治理供应链。
 SYNDOVELA 是 [MODUREGIS](moduregis.md) 治理、[PRAXOVELA](praxovela.md) 等运行时执行的
 技能的供应链层。它通过覆盖被测产物的来源，补足 [TEKMOVELA](tekmovela.md) 保障。
 
+## 站点运行时边界
+
+SYNDOVELA 保留期望的 Bundle 组合、ResolutionLock 与 Runtime Profile。
+[AKROVELA](akrovela.md) 预期验证并加载支持的产物、报告实际状态，而不是再造解析器。
+AKROVELA 为未发布的 0.1.0，仅 bootstrap 初始化阶段；该集成为规划，尚未交付，不能
+悄然削弱 SBRP 分区行为或暗示支持离线执行。
+
 ## 开始
 
 - [Syndovela Open 仓库](https://github.com/axisvela/SYNDOVELA-open)

@@ -4,6 +4,12 @@ The map is organized by **the job a project does**, not by repository age or
 deployment topology. Projects can be adopted independently; the arrows show
 integration seams, not mandatory dependencies.
 
+**New dashed edges are planned, not shipped integrations.** AKROVELA and
+DIDACTOVELA are unreleased 0.1.0 bootstrap only: operational
+health/schema-readiness/version APIs and source Go version clients. No domain
+execution, datasets, training, robot integration, binaries or published SDKs are
+available. The new nodes describe intended ownership, not implemented behavior.
+
 ```mermaid
 flowchart TB
   subgraph design["Design & standards"]
@@ -41,6 +47,10 @@ flowchart TB
   subgraph human["Human & physical"]
     SB[SYMBIVELA]
     KN[KINETOVELA]
+    AK[AKROVELA bootstrap]
+  end
+  subgraph learning["Data & learning: planned"]
+    DD[DIDACTOVELA bootstrap]
   end
   subgraph program["Program"]
     EA[Enterprise Autonomy]
@@ -54,7 +64,8 @@ flowchart TB
   PC --> AE
   PC --> LM
   PC --> RV
-  EI --> NM
+  NM --> EI
+  EI --> AE
   NM --> AE
   GN --> ON
   OD --> MR
@@ -68,6 +79,14 @@ flowchart TB
   TAX --> EA
   PAMP --> EA
   LM --> EA
+  KN -. planned bounded operations .-> AK
+  SD -. planned desired composition .-> AK
+  MR -. planned capability refs .-> AK
+  RV -. planned workflow delegation .-> AK
+  AK -. planned capture refs .-> DD
+  PR -. planned raw evidence .-> DD
+  DD -. planned candidates, not activation .-> NV
+  DD -. planned assessment inputs .-> TK
 ```
 
 ## Design and standards
@@ -168,6 +187,18 @@ the physical world?
 - [KINETOVELA](projects/kinetovela.md) is the physical-autonomy control plane
   for safe, observable robot-fleet missions.
 
+## Planned site execution and learning
+
+[AKROVELA](projects/akrovela.md) is intended to own node operations, local
+attempts and receipts; KINETOVELA retains Mission/assignment/effect lifecycle.
+[DIDACTOVELA](projects/didactovela.md) is intended to own episodes, datasets,
+labels, training lineage and candidate artifacts; PEIRAVELA retains raw
+experiments, NOETIVELA production inference and TEKMOVELA independent assurance.
+SYNDOVELA retains desired composition, MODUREGIS capability contracts, ORCHADYN
+planning, RHEOVELA durable workflow and ONTOVELA operational world truth.
+PRAXO-CORE's framework role is unchanged. These are future boundaries, not
+shipped integrations; robot-local safety remains independent.
+
 ## Program
 
 **What it answers:** How do the pieces compose into something end-to-end?
@@ -183,8 +214,9 @@ An arrow means “this project produces something the other can consume,” not
 
 - PRAXO-CORE exposes seams that NOETIVELA, MNEMOVELA, HARMOVELA, GNOSIVELA,
   AEGIVELA, LIMENORA, and RHEOVELA can fill.
-- EIDOVELA issues identity, NOMIVELA records it, and AEGIVELA authorizes what
-  the identity may do.
+- NOMIVELA supplies registry and authority-binding context; EIDOVELA uses it for
+  identity issuance/verification; AEGIVELA consumes verified identity and grants
+  authorization. Identity issuance does not transfer registry writes.
 - ORCHADYN produces plans, MODUREGIS governs capabilities, and RHEOVELA
   executes and recovers process instances.
 

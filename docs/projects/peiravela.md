@@ -37,6 +37,14 @@ PEIRAVELA consumes world models from [ONTOVELA](ontovela.md) and knowledge from
 [GNOSIVELA](gnosivela.md). Its evidence feeds [TEKMOVELA](tekmovela.md) release
 gates and informs [KINETOVELA](kinetovela.md) mission design.
 
+## Learning boundary
+
+PEIRAVELA retains experiment worlds, perturbations and raw SimulationEvidence.
+[DIDACTOVELA](didactovela.md) is intended to own admitted episodes, dataset
+snapshots, labels and training lineage, not a second simulation control plane.
+DIDACTOVELA is unreleased 0.1.0 bootstrap only; evidence-to-dataset handoff is
+planned, not shipped.
+
 ## Start
 
 - [Peiravela Open repository](https://github.com/axisvela/peiravela-open)

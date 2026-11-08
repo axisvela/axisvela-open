@@ -35,6 +35,12 @@ MODUREGIS 把能力变成受治理目录，而不是隐式函数列表。
 MODUREGIS 治理 [ORCHADYN](orchadyn.md) 计划与 [RHEOVELA](rheovela.md) 流程使用的能力层。
 它与 [AEGIVELA](aegivela.md)（授权）和 [SYNDOVELA](syndovela.md)（技能供应链）集成。
 
+## 边缘能力边界
+
+MODUREGIS 保留能力契约、不可变引用与 CapabilityPlan 发布。[AKROVELA](akrovela.md)
+预期的站点执行消费受治理引用，而不创建第二个目录；机器人能力只是领域 profile。
+AKROVELA 为未发布的 0.1.0，仅 bootstrap 初始化阶段；能力集成为规划，尚未交付。
+
 ## 开始
 
 - [Moduregis Open 仓库](https://github.com/axisvela/moduregis-open)

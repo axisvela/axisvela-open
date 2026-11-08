@@ -70,6 +70,12 @@ https://github.com/axisvela/axisvela-open.
 - [SYMBIVELA](https://github.com/axisvela/symbivela-open): human-agent collaboration workspace for approvals, exceptions, and intervention.
 - [KINETOVELA](https://github.com/axisvela/kinetovela-open): physical-autonomy control plane for robot fleets.
 
+## Bootstrap: planned site execution and learning
+
+- [AKROVELA](https://github.com/axisvela/akrovela-open): intended local operations, attempts and receipts; KINETOVELA retains Mission authority.
+- [DIDACTOVELA](https://github.com/axisvela/didactovela-open): intended datasets and candidate learned policies; NOETIVELA retains production inference, TEKMOVELA independent assurance.
+- Both are unreleased 0.1.0 bootstrap only: operational health/schema-readiness/version APIs and source Go version clients. No domain execution, datasets, training, robot integration, binaries or published SDKs; all new integration edges are planned, not shipped. Open source Apache-2.0, core AGPL-3.0-only, EE proprietary; binaries retain their own licenses.
+
 ## Design and program
 
 - [TAXOVELA](https://github.com/axisvela/TAXOVELA): AI-native architecture design and validation skills + CLI.

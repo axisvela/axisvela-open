@@ -5,6 +5,11 @@
 这张地图按**项目承担的工作**组织，而不是按仓库年龄或部署拓扑组织。项目可以独立采用；
 箭头表示集成接缝，不表示强制依赖。
 
+**新增虚线边表示规划关系，不是已交付集成。** AKROVELA 与 DIDACTOVELA 均为未发布的
+0.1.0，仅 bootstrap 初始化阶段：只有运行健康、schema 就绪检查、版本 API 与源码形式的
+Go 版本客户端。没有领域执行、数据集、训练、机器人集成、二进制或已发布的 SDK。
+新增节点表示预期权责，不是已实现行为。
+
 ```mermaid
 flowchart TB
   subgraph design["设计与标准"]
@@ -42,6 +47,10 @@ flowchart TB
   subgraph human["人类与物理"]
     SB[SYMBIVELA]
     KN[KINETOVELA]
+    AK[AKROVELA bootstrap]
+  end
+  subgraph learning["数据与学习：规划中"]
+    DD[DIDACTOVELA bootstrap]
   end
   subgraph program["项目计划"]
     EA[Enterprise Autonomy]
@@ -55,7 +64,8 @@ flowchart TB
   PC --> AE
   PC --> LM
   PC --> RV
-  EI --> NM
+  NM --> EI
+  EI --> AE
   NM --> AE
   GN --> ON
   OD --> MR
@@ -69,6 +79,14 @@ flowchart TB
   TAX --> EA
   PAMP --> EA
   LM --> EA
+  KN -. 规划：受限操作 .-> AK
+  SD -. 规划：期望组合 .-> AK
+  MR -. 规划：能力引用 .-> AK
+  RV -. 规划：工作流委托 .-> AK
+  AK -. 规划：采集引用 .-> DD
+  PR -. 规划：原始证据 .-> DD
+  DD -. 规划：候选而非激活 .-> NV
+  DD -. 规划：评估输入 .-> TK
 ```
 
 ## 设计与标准
@@ -143,6 +161,15 @@ flowchart TB
   干预、结果与证据。
 - [KINETOVELA](projects/kinetovela.md) 是面向安全、可观测机器人集群任务的物理自治控制平面。
 
+## 规划中的站点执行与学习
+
+[AKROVELA](projects/akrovela.md) 预期拥有节点操作、本地尝试与回执；KINETOVELA 保留
+Mission、分配与效果生命周期。[DIDACTOVELA](projects/didactovela.md) 预期拥有 episode、
+数据集、标签、训练谱系与候选产物；PEIRAVELA 保留原始实验，NOETIVELA 保留生产推理，
+TEKMOVELA 保留独立保障。SYNDOVELA 保留期望组合，MODUREGIS 保留能力契约，ORCHADYN
+保留规划，RHEOVELA 保留持久工作流，ONTOVELA 保留运营世界真相。PRAXO-CORE 的框架
+角色不变。这些是未来边界，不是已交付集成；机器人本地安全仍须独立。
+
 ## 项目计划
 
 **回答的问题：** 这些部件如何组合成端到端系统？
@@ -157,7 +184,8 @@ flowchart TB
 
 - PRAXO-CORE 暴露的接缝可以由 NOETIVELA、MNEMOVELA、HARMOVELA、GNOSIVELA、AEGIVELA、
   LIMENORA、RHEOVELA 填充。
-- EIDOVELA 签发身份，NOMIVELA 记录身份，AEGIVELA 决定身份可以做什么。
+- NOMIVELA 提供注册与权限绑定上下文，EIDOVELA 据此签发/验证身份，AEGIVELA 消费已验证身份
+  并授权；身份签发不转移注册表写入权威。
 - ORCHADYN 产出计划，MODUREGIS 治理能力，RHEOVELA 执行并恢复流程实例。
 
 完整边列表与原因见[关系索引](reference/relationships.md)。

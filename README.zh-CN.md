@@ -52,9 +52,16 @@ AxisVela 是一个独立维护的开源项目家族，面向构建和运行 Agen
 | 信任与知识 | 身份、注册、授权、知识锚定、世界模型 | EIDOVELA、NOMIVELA、AEGIVELA、GNOSIVELA、ONTOVELA |
 | 边界与保障 | 集成、验证、仿真、技能供应链 | LIMENORA、TEKMOVELA、PEIRAVELA、SYNDOVELA |
 | 人类与物理操作 | 人类监督、机器人集群控制 | SYMBIVELA、KINETOVELA |
+| 站点执行（规划中） | 本地操作、尝试与回执 | [AKROVELA](docs/zh/projects/akrovela.md)，bootstrap |
+| 数据与学习（规划中） | 学习输入与候选产物 | [DIDACTOVELA](docs/zh/projects/didactovela.md)，bootstrap |
 | 项目计划 | 端到端组合与示例 | Enterprise Autonomy |
 
 层次是阅读辅助，不是依赖链。产品通过版本化契约集成，可以独立采用。
+
+AKROVELA 与 DIDACTOVELA 均为**未发布的 0.1.0，仅 bootstrap 初始化阶段**：只有运行健康、
+schema 就绪检查、版本 API 与源码形式的 Go 版本客户端。领域范围与集成关系均为规划，尚未交付。
+两者均不提供领域执行、数据集、训练、机器人集成、二进制或已发布的 SDK。开源部分采用
+Apache-2.0，核心采用 AGPL-3.0-only，EE 为专有；未来二进制保留自身许可证。
 
 ## 开放接口层与商业版
 
@@ -98,6 +105,9 @@ AxisVela 是由独立维护者维护的项目家族，不是公司。公开仓�
 企业版单独开发。
 
 ## 贡献、安全与许可证
+
+安装 `requirements-docs.txt` 后，运行 `python -m unittest discover -s tests -v`
+检查索引与双语链接，并运行 `mkdocs build --strict`。这些是文档检查，不是产品互操作证据。
 
 - [贡献指南](CONTRIBUTING.md) — 文档修正、项目提案，以及本仓库与产品仓库的边界。
 - [安全策略](SECURITY.md) — 私下报告漏洞。

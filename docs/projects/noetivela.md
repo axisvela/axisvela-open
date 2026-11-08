@@ -39,6 +39,14 @@ inference for [PRAXOVELA](praxovela.md) and other agents. It is a natural
 companion to [GNOSIVELA](gnosivela.md) for grounded context and
 [TEKMOVELA](tekmovela.md) for evaluating model-dependent behavior.
 
+## Candidate boundary
+
+Noetivela retains production model and inference endpoint authority.
+[DIDACTOVELA](didactovela.md) is intended to produce candidate learned-policy
+artifacts, not activate endpoints or grant execution authority. DIDACTOVELA is
+unreleased 0.1.0 bootstrap only; candidate handoff is planned, not shipped, and
+would require explicit authorized deployment admission.
+
 ## Start
 
 - [Noetivela Open repository](https://github.com/axisvela/noetivela-open)

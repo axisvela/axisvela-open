@@ -38,6 +38,12 @@ ONTOVELA 消费 [GNOSIVELA](gnosivela.md) 的概念与证据，为
 
 公开仓库是开发者平台接口；当前许可证与可用性见仓库。
 
+## 学习数据边界
+
+ONTOVELA 保留运营世界真相。[DIDACTOVELA](didactovela.md) 预期拥有原始学习 episode
+与数据集谱系；记录或仿真的学习状态不能覆盖运营现实。DIDACTOVELA 为未发布的 0.1.0，
+仅 bootstrap 初始化阶段；未交付 episode 集成。
+
 ## 开始
 
 - [Ontovela Open 仓库](https://github.com/axisvela/ontovela-open)

@@ -68,6 +68,9 @@ nav:
       - Human and physical:
           - SYMBIVELA: projects/symbivela.md
           - KINETOVELA: projects/kinetovela.md
+          - AKROVELA (bootstrap): projects/akrovela.md
+      - Data and learning:
+          - DIDACTOVELA (bootstrap): projects/didactovela.md
       - Program:
           - Enterprise Autonomy: projects/enterprise-autonomy.md
   - Agent theory:
@@ -171,6 +174,9 @@ nav:
           - 人类与物理:
               - SYMBIVELA: zh/projects/symbivela.md
               - KINETOVELA: zh/projects/kinetovela.md
+              - AKROVELA (bootstrap): zh/projects/akrovela.md
+          - 数据与学习:
+              - DIDACTOVELA (bootstrap): zh/projects/didactovela.md
           - 项目计划:
               - Enterprise Autonomy: zh/projects/enterprise-autonomy.md
       - Agent 理论:

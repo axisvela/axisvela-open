@@ -36,6 +36,12 @@ RHEOVELA 执行 [ORCHADYN](orchadyn.md) 产出、受 [MODUREGIS](moduregis.md) �
 人类审批与异常可通过 [SYMBIVELA](symbivela.md) 路由，结果可由
 [TEKMOVELA](tekmovela.md) 验证。
 
+## 站点执行边界
+
+RHEOVELA 保留跨服务持久 Process 状态、租约、fencing 与恢复。[AKROVELA](akrovela.md)
+预期拥有本地尝试与回执；其未来日志不是第二个工作流引擎。AKROVELA 为未发布的 0.1.0，
+仅 bootstrap 初始化阶段；工作流到站点的委托为规划，尚未交付。
+
 ## 开始
 
 - [Rheovela Open 仓库](https://github.com/axisvela/rheovela-open)
